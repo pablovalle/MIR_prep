@@ -6,7 +6,7 @@ import re
 import unittest
 
 ROOT = Path(__file__).resolve().parent.parent
-FOLDER = ROOT / "MIR" / "MIR_IA_1"
+FOLDER = ROOT / "MIR" / "archive" / "MIR_IA_1_v1"
 spec = importlib.util.spec_from_file_location("mir_build_exam", ROOT / "scripts" / "build.py")
 build = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(build)

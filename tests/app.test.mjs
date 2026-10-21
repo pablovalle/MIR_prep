@@ -104,7 +104,8 @@ test('complete app journey: demo, autosave, pending questions, resume after relo
     await waitFor(() => root.innerHTML.includes('Tu esfuerzo tiene historia.'));
     assert.ok(root.innerHTML.includes('1,67'));
     location.hash = '/exams';
-    await waitFor(() => root.innerHTML.includes('200 preguntas · 198 puntuables'));
+    await waitFor(() => root.innerHTML.includes('MIR generado por Rosa con IA'));
+    assert.ok(!root.innerHTML.includes('198 puntuables'));
     // Render a server-shaped completed MIR without writing to an actual account.
     const medical = JSON.parse(await readFile(new URL('../MIR/MIR_IA_1/exam.json', import.meta.url), 'utf8'));
     const medicalSolutions = Object.fromEntries(medical.questions.map(q => [q.id, { correctOptionId: q.correctOptionId, explanation: q.explanation }]));
@@ -117,11 +118,12 @@ test('complete app journey: demo, autosave, pending questions, resume after relo
       await waitFor(() => root.innerHTML.includes('Un paso más en tu camino.'));
       location.hash = '/review/' + medicalAttempt.id;
       await waitFor(() => root.innerHTML.includes('Aprende de cada pregunta.'));
-      await click('review-filter', { filter: 'voided' });
+      await click('review-filter', { filter: 'correct' });
       assert.ok(root.innerHTML.includes('PREGUNTA 148'));
       assert.ok(root.innerHTML.includes('PREGUNTA 181'));
-      assert.ok(!root.innerHTML.includes('PREGUNTA 147'));
-      assert.ok(!root.innerHTML.includes('correct-option'));
+      assert.ok(root.innerHTML.includes('PREGUNTA 147'));
+      assert.ok(root.innerHTML.includes('correct-option'));
+      assert.ok(!root.innerHTML.includes('data-filter="voided"'));
       assert.ok(!root.innerHTML.includes('Dejaste esta pregunta en blanco.'));
       let reportBlob;
       const originalCreate = URL.createObjectURL;
@@ -134,8 +136,8 @@ test('complete app journey: demo, autosave, pending questions, resume after relo
         const articles = [...report.matchAll(/<article>(.*?)<\/article>/gs)].map(match => match[1]);
         assert.equal(articles.length, 200);
         for (const index of [147, 180]) {
-          assert.ok(articles[index].includes('Pregunta anulada: no se evalúa'));
-          assert.ok(!articles[index].includes('Respuesta de referencia:'));
+          assert.ok(!articles[index].includes('Pregunta anulada: no se evalúa'));
+          assert.ok(articles[index].includes('Respuesta de referencia:'));
         }
         assert.ok(articles[0].includes('Respuesta de referencia:'));
       } finally {

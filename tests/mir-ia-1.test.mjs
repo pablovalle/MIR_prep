@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { activeQuestions, gradeExam, specialtyStats, unresolved } from '../src/core.js';
 
-const exam = JSON.parse(await readFile(new URL('../MIR/MIR_IA_1/exam.json', import.meta.url), 'utf8'));
+const exam = JSON.parse(await readFile(new URL('../MIR/archive/MIR_IA_1_v1/exam.json', import.meta.url), 'utf8'));
 const active = activeQuestions(exam);
 const solutions = Object.fromEntries(exam.questions.map(q => [q.id, { correctOptionId: q.correctOptionId, explanation: q.explanation }]));
 const responses = answerFor => Object.fromEntries(active.map(q => [q.id, answerFor(q)]));
@@ -45,12 +45,13 @@ test('mixed MIR_IA_1 submission keeps the original question numbers and +3/-1/0 
   assert.equal(result.details[199].questionId, 'q200');
 });
 
-test('built catalog distinguishes total and evaluable questions and never publishes real solutions', async () => {
+test('built catalog lists only the current version and never publishes real solutions', async () => {
   const catalog = JSON.parse(await readFile(new URL('../dist/MIR/catalog.json', import.meta.url), 'utf8'));
-  const entry = catalog.find(e => e.id === exam.id);
-  assert.deepEqual([entry.totalQuestionCount, entry.questionCount, entry.voidedQuestionCount], [200, 198, 2]);
-  const publicExam = await readFile(new URL('../dist/MIR/mir-ia-1-v1/exam.json', import.meta.url), 'utf8');
+  assert.ok(!catalog.some(e => e.id === exam.id));
+  const entry = catalog.find(e => e.id === 'mir-ia-1-v2');
+  assert.deepEqual([entry.totalQuestionCount, entry.questionCount, entry.voidedQuestionCount], [200, 200, 0]);
+  const publicExam = await readFile(new URL('../dist/MIR/mir-ia-1-v2/exam.json', import.meta.url), 'utf8');
   assert.equal(JSON.parse(publicExam).questions.length, 200);
   assert.doesNotMatch(publicExam, /correctOptionId|explanation|editorialNotes/);
-  await assert.rejects(readFile(new URL('../dist/MIR/mir-ia-1-v1/demo-solutions.json', import.meta.url)), { code: 'ENOENT' });
+  await assert.rejects(readFile(new URL('../dist/MIR/mir-ia-1-v2/demo-solutions.json', import.meta.url)), { code: 'ENOENT' });
 });

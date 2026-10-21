@@ -37,7 +37,8 @@ Sin Supabase configurado, la web ofrece una demo local con cuatro preguntas sobr
 ```text
 MIR/                         Un directorio por examen; preguntas y soluciones fuente
   demo/exam.json             Entrenamiento de prueba
-  MIR_IA_1/exam.json         Primer simulacro médico: 200 preguntas, 198 puntuables
+  MIR_IA_1/exam.json         Primer simulacro médico: 200 preguntas puntuables (v2)
+  archive/                  Fuentes de versiones retiradas; historial conservado
 usuarios/                    Documentación del modelo; nunca datos reales
 src/                         Interfaz, acceso a datos y lógica de puntuación demo
 assets/                      Recursos estáticos
@@ -88,7 +89,7 @@ Para subir los siguientes MIR con un único comando: **`python scripts/publish.p
 
 Consulta [MIR/README.md](MIR/README.md). Crea una carpeta por examen con el formato del ejemplo y un ID versionado. El constructor descubre los exámenes automáticamente. Después importa el SQL en Supabase y publica la nueva versión de la web.
 
-Ya se incluye **MIR_IA_1**, con las 200 preguntas aportadas, sus cuatro opciones y explicaciones. Las preguntas 148 y 181 están anuladas y no puntúan. La plantilla original cubría 51–200; la clave 1–50 se ha completado durante la incorporación. Consulta el [registro de revisión](MIR/MIR_IA_1/REVIEW.md) para conocer su procedencia y las incidencias. No hay un generador de IA conectado y sigue siendo necesaria una revisión clínica independiente del material.
+Ya se incluye **MIR_IA_1**, descrito como «MIR generado por Rosa con IA», con 200 preguntas puntuables, sus cuatro opciones y explicaciones. En la versión 2 se han sustituido las preguntas 148 y 181 que estaban anuladas; la versión original y sus intentos se conservan. La plantilla original cubría 51–200; la clave 1–50 se ha completado durante la incorporación. Consulta el [registro de revisión](MIR/MIR_IA_1/REVIEW.md) para conocer su procedencia. No hay un generador de IA conectado y sigue siendo necesaria una revisión clínica independiente del material.
 
 ## Puntuación y límites
 

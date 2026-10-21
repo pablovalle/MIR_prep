@@ -1,8 +1,8 @@
 {
-  "id": "mir-ia-1-v1",
+  "id": "mir-ia-1-v2",
   "title": "MIR_IA_1",
   "subtitle": "Simulacro de entrenamiento · 200 preguntas",
-  "description": "Simulacro original de entrenamiento elaborado con el material de IA aportado. 200 preguntas en orden, 198 puntuables: las preguntas 148 y 181 están anuladas por defectos en sus opciones. La clave 1–50 se ha completado; la 51–200 conserva la plantilla aportada. +3 por acierto, −1 por error y 0 por blanco. No es un examen oficial ni predice el MIR 2027.",
+  "description": "MIR generado por Rosa con IA",
   "category": "Simulacro MIR",
   "isDemo": false,
   "durationMinutes": 270,
@@ -14,14 +14,20 @@
   "editorialNotes": {
     "source": "Preguntas y plantilla de IA aportadas por el usuario el 21 de octubre de 2026. Sin cabeceras, firma ni datos personales del correo.",
     "answers1to50": "Clave completada durante la incorporación: no estaba en la plantilla original. Es una propuesta de corrección pendiente de revisión clínica independiente.",
-    "answers51to200": "Se conserva la plantilla original, incluidas las claves pretendidas C de las preguntas anuladas 148 y 181; esas claves nunca puntúan.",
+    "answers51to200": "Se mantienen las letras de la plantilla aportada. Las preguntas 148 y 181 son sustituciones nuevas, ambas con respuesta C válida; los otros 198 enunciados, opciones y explicaciones se conservan.",
     "explanations": "Explicaciones añadidas durante la incorporación, con comprobaciones dirigidas de puntos conflictivos. No constituyen una revisión clínica exhaustiva.",
-    "voided": [
+    "voided": [],
+    "reserves": 0,
+    "timing": "270 minutos orientativos; no se fuerza la entrega al agotarse el tiempo.",
+    "previousVersion": "mir-ia-1-v1",
+    "replacedQuestions": [
       148,
       181
     ],
-    "reserves": 0,
-    "timing": "270 minutos orientativos; no se fuerza la entrega al agotarse el tiempo."
+    "replacementReferences": {
+      "q148": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "q181": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15"
+    }
   },
   "questions": [
     {
@@ -3702,28 +3708,27 @@
     {
       "id": "q148",
       "specialty": "Oftalmología y otorrinolaringología",
-      "statement": "¿Cuál es la causa más frecuente de conjuntivitis aguda en niños?",
+      "statement": "Una mujer de 66 años presenta pérdida progresiva del campo visual periférico. La exploración muestra aumento de la excavación papilar y el ángulo iridocorneal está abierto. ¿Cuál es el diagnóstico más probable?",
       "options": [
         {
           "id": "a",
-          "text": "Glaucoma agudo."
+          "text": "Degeneración macular asociada a la edad."
         },
         {
           "id": "b",
-          "text": "Desprendimiento de retina."
+          "text": "Catarata nuclear."
         },
         {
           "id": "c",
-          "text": "Infección vírica."
+          "text": "Glaucoma primario de ángulo abierto."
         },
         {
           "id": "d",
-          "text": "Degeneración macular."
+          "text": "Conjuntivitis alérgica."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "ANULADA. La plantilla aportada indica C, pero no puede sostenerse como respuesta universal en población pediátrica: hay evidencia de predominio bacteriano, opción ausente. Se conserva el texto original y no se puntúa ninguna opción. Referencia: Patel et al., Clinical features of bacterial conjunctivitis in children, PMID 17119185: https://pubmed.ncbi.nlm.nih.gov/17119185/.",
-      "voided": true
+      "explanation": "La pérdida progresiva del campo visual periférico y la excavación del nervio óptico, con ángulo abierto, orientan a glaucoma primario de ángulo abierto. La presión intraocular elevada es un factor de riesgo, pero puede existir glaucoma con presión dentro del rango habitual. La degeneración macular afecta principalmente a la visión central. Referencia: National Eye Institute, Glaucoma: https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma."
     },
     {
       "id": "q149",
@@ -4528,28 +4533,27 @@
     {
       "id": "q181",
       "specialty": "Bioestadística y medicina basada en la evidencia",
-      "statement": "¿Qué significa un intervalo de confianza del 95 % en el marco frecuentista?",
+      "statement": "En un estudio, la diferencia media de presión arterial sistólica entre dos grupos es de −5 mmHg, con un intervalo de confianza del 95 % de −8 a −2 mmHg. ¿Qué interpretación es correcta en el marco frecuentista?",
       "options": [
         {
           "id": "a",
-          "text": "Que el 95 % de los pacientes tienen el valor exacto estimado."
+          "text": "El 95 % de los pacientes presenta una diferencia individual entre −8 y −2 mmHg."
         },
         {
           "id": "b",
-          "text": "Que el resultado será necesariamente correcto."
+          "text": "El parámetro poblacional fijo tiene una probabilidad del 95 % de estar dentro de este intervalo concreto ya calculado."
         },
         {
           "id": "c",
-          "text": "Que existe un 95 % de probabilidad de que el parámetro fijo esté dentro de este intervalo concreto, en la interpretación frecuentista estricta."
+          "text": "Si se repitiera el estudio muchas veces y se construyeran los intervalos con el mismo procedimiento, aproximadamente el 95 % contendrían la diferencia media verdadera, bajo los supuestos del modelo."
         },
         {
           "id": "d",
-          "text": "Que el estudio carece de sesgos."
+          "text": "El intervalo demuestra que el estudio carece de sesgos y que el efecto es clínicamente relevante."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "ANULADA. Ninguna opción es correcta. En muestreos repetidos bajo los supuestos del modelo, aproximadamente el 95 % de los intervalos construidos con este procedimiento contendrían el parámetro verdadero. No se asigna una probabilidad del 95 % al parámetro fijo dentro de este intervalo ya observado. La C se conserva únicamente como clave pretendida por el material original y no puntúa. Referencia: Cochrane Handbook, capítulo 15, apartado 15.3.3: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15.",
-      "voided": true
+      "explanation": "El 95 % se refiere a la cobertura del procedimiento en muestreos repetidos bajo los supuestos del modelo. El parámetro poblacional es fijo: no se le atribuye una probabilidad del 95 % de estar dentro de este intervalo observado. El intervalo tampoco describe la variación individual de los pacientes ni garantiza ausencia de sesgos o relevancia clínica. Referencia: Cochrane Handbook, capítulo 15, apartado 15.3.3: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15."
     },
     {
       "id": "q182",

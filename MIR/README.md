@@ -1,6 +1,6 @@
 # Exámenes
 
-Cada examen tiene su propia carpeta con un `exam.json`. `demo/exam.json` muestra el formato completo. [MIR_IA_1](MIR_IA_1/REVIEW.md) es el primer simulacro médico: 200 preguntas, de las que 198 puntúan; el registro explica la plantilla completada y las dos anulaciones.
+Cada examen tiene su propia carpeta con un `exam.json`. `demo/exam.json` muestra el formato completo. [MIR_IA_1](MIR_IA_1/REVIEW.md) es el primer simulacro médico: su versión 2 tiene 200 preguntas puntuables, con dos sustituciones respecto a la versión original. Las versiones retiradas se conservan en `archive/<versión>/exam.json`, fuera del catálogo y de nuevas importaciones.
 
 Campos del examen: `id` único y versionado, `title`, `subtitle`, `description`, `category`, `isDemo`, `durationMinutes`, `scoring` y `questions`.
 
