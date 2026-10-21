@@ -5,6 +5,7 @@ __pycache__/
 .env.*
 !.env.example
 config.local.json
+publish.local.json
 supabase/import.sql
 supabase/setup.sql
 usuarios/*.json

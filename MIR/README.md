@@ -12,6 +12,8 @@ Cada pregunta tiene `id`, `specialty`, `statement`, `options` (2–6 elementos c
 4. Ejecuta `python scripts/build.py --sql` y carga `supabase/import.sql` en el editor SQL de Supabase, después de `supabase/schema.sql`.
 5. Publica la web. El catálogo se construye automáticamente.
 
+Con la automatización configurada, los pasos 3–5 se sustituyen por **`python scripts/publish.py`**. Consulta [publicación automática](../docs/AUTOMATIC_PUBLISH.md). El workflow carga también los exámenes al hacer push a `main`.
+
 Las soluciones se eliminan de los JSON publicados. La corrección de cuentas reales sucede en la base de datos. Solo el entrenamiento demo publica sus soluciones, para poder funcionar sin servidor.
 
 **Versionado:** no cambies el contenido de un examen ya importado. Crea otra carpeta con un `id` nuevo (`mir-001-v2`, por ejemplo). El importador rechaza cambios de contenido bajo el mismo ID, conservando la coherencia del historial.

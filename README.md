@@ -84,6 +84,8 @@ El workflow comprueba el código y publica **solo `dist/`**. No publica `usuario
 
 ## Exámenes MIR
 
+Para subir los siguientes MIR con un único comando: **`python scripts/publish.py`**, o doble clic en **PUBLICAR_MIR.cmd**. Valida, prueba, importa en Supabase y publica en Pages. La instalación inicial y las credenciales se explican en [publicación automática](docs/AUTOMATIC_PUBLISH.md); después no hace falta abrir el SQL Editor. Los push a `main` también sincronizan los exámenes antes de desplegar.
+
 Consulta [MIR/README.md](MIR/README.md). Crea una carpeta por examen con el formato del ejemplo y un ID versionado. El constructor descubre los exámenes automáticamente. Después importa el SQL en Supabase y publica la nueva versión de la web.
 
 Ya se incluye **MIR_IA_1**, con las 200 preguntas aportadas, sus cuatro opciones y explicaciones. Las preguntas 148 y 181 están anuladas y no puntúan. La plantilla original cubría 51–200; la clave 1–50 se ha completado durante la incorporación. Consulta el [registro de revisión](MIR/MIR_IA_1/REVIEW.md) para conocer su procedencia y las incidencias. No hay un generador de IA conectado y sigue siendo necesaria una revisión clínica independiente del material.

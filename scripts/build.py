@@ -79,12 +79,20 @@ def public_exam(exam):
     return public
 
 
-def sql_import(exam, public):
-    payload = json.dumps({"exam": public, "solutions": {
+def import_record(exam, public):
+    payload = {"exam": public, "solutions": {
         q["id"]: {"correctOptionId": q["correctOptionId"], "explanation": q["explanation"]}
         for q in exam["questions"]
-    }}, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-    fingerprint = hashlib.sha256(payload.encode()).hexdigest()
+    }}
+    canonical = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return {"id": exam["id"], "payload": payload,
+            "fingerprint": hashlib.sha256(canonical.encode()).hexdigest()}
+
+
+def sql_import(exam, public):
+    record = import_record(exam, public)
+    payload = json.dumps(record["payload"], ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    fingerprint = record["fingerprint"]
     # Standard SQL string escaping (standard_conforming_strings is enabled explicitly).
     literal = payload.replace("'", "''")
     exam_id = exam["id"]  # validated against SAFE_ID
