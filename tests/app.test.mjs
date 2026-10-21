@@ -4,6 +4,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { webcrypto } from 'node:crypto';
+import { gradeExam } from '../src/core.js';
 
 test('complete app journey: demo, autosave, pending questions, resume after reload, submit and review', async () => {
   class MemoryStorage {
@@ -102,6 +103,46 @@ test('complete app journey: demo, autosave, pending questions, resume after relo
     location.hash = '/history';
     await waitFor(() => root.innerHTML.includes('Tu esfuerzo tiene historia.'));
     assert.ok(root.innerHTML.includes('1,67'));
+    location.hash = '/exams';
+    await waitFor(() => root.innerHTML.includes('200 preguntas · 198 puntuables'));
+    // Render a server-shaped completed MIR without writing to an actual account.
+    const medical = JSON.parse(await readFile(new URL('../MIR/MIR_IA_1/exam.json', import.meta.url), 'utf8'));
+    const medicalSolutions = Object.fromEntries(medical.questions.map(q => [q.id, { correctOptionId: q.correctOptionId, explanation: q.explanation }]));
+    const medicalAnswers = Object.fromEntries(medical.questions.filter(q => !q.voided).map(q => [q.id, q.correctOptionId]));
+    const medicalAttempt = { ...completed, id: 'completed-mir-ia-1', exam_id: medical.id, exam: medical, answers: medicalAnswers, result: gradeExam(medical, medicalAnswers, medicalSolutions) };
+    const originalStart = api.start;
+    try {
+      api.start = async () => structuredClone(medicalAttempt);
+      await click('start', { id: medical.id });
+      await waitFor(() => root.innerHTML.includes('Un paso más en tu camino.'));
+      location.hash = '/review/' + medicalAttempt.id;
+      await waitFor(() => root.innerHTML.includes('Aprende de cada pregunta.'));
+      await click('review-filter', { filter: 'voided' });
+      assert.ok(root.innerHTML.includes('PREGUNTA 148'));
+      assert.ok(root.innerHTML.includes('PREGUNTA 181'));
+      assert.ok(!root.innerHTML.includes('PREGUNTA 147'));
+      assert.ok(!root.innerHTML.includes('correct-option'));
+      assert.ok(!root.innerHTML.includes('Dejaste esta pregunta en blanco.'));
+      let reportBlob;
+      const originalCreate = URL.createObjectURL;
+      const originalCreateElement = document.createElement;
+      try {
+        URL.createObjectURL = blob => { reportBlob = blob; return 'blob:test-mir-report'; };
+        document.createElement = () => ({ click() {} });
+        await click('download-report', { id: medicalAttempt.id });
+        const report = await reportBlob.text();
+        const articles = [...report.matchAll(/<article>(.*?)<\/article>/gs)].map(match => match[1]);
+        assert.equal(articles.length, 200);
+        for (const index of [147, 180]) {
+          assert.ok(articles[index].includes('Pregunta anulada: no se evalúa'));
+          assert.ok(!articles[index].includes('Respuesta de referencia:'));
+        }
+        assert.ok(articles[0].includes('Respuesta de referencia:'));
+      } finally {
+        URL.createObjectURL = originalCreate;
+        document.createElement = originalCreateElement;
+      }
+    } finally { api.start = originalStart; }
     await click('logout');
     await waitFor(() => root.innerHTML.includes('Qué bien verte de nuevo.'));
     assert.equal(api.demo, false);

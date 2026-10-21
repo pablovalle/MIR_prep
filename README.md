@@ -37,6 +37,7 @@ Sin Supabase configurado, la web ofrece una demo local con cuatro preguntas sobr
 ```text
 MIR/                         Un directorio por examen; preguntas y soluciones fuente
   demo/exam.json             Entrenamiento de prueba
+  MIR_IA_1/exam.json         Primer simulacro médico: 200 preguntas, 198 puntuables
 usuarios/                    Documentación del modelo; nunca datos reales
 src/                         Interfaz, acceso a datos y lógica de puntuación demo
 assets/                      Recursos estáticos
@@ -81,11 +82,11 @@ El workflow comprueba el código y publica **solo `dist/`**. No publica `usuario
 
 **Si el repositorio es público, sus archivos fuente también lo son**, incluidas las soluciones de `MIR/*/exam.json`. Para ocultarlas, usa un repositorio fuente privado y publica únicamente el artefacto de Pages, o conserva las fuentes fuera del repositorio público. No pongas jamás credenciales privadas o información de usuarios en Git.
 
-## Añadir los MIR más adelante
+## Exámenes MIR
 
 Consulta [MIR/README.md](MIR/README.md). Crea una carpeta por examen con el formato del ejemplo y un ID versionado. El constructor descubre los exámenes automáticamente. Después importa el SQL en Supabase y publica la nueva versión de la web.
 
-No hay un generador de preguntas con IA conectado: los exámenes se añadirán después, como se ha previsto. El contenido generado debe revisarse antes de usarlo para preparar el MIR.
+Ya se incluye **MIR_IA_1**, con las 200 preguntas aportadas, sus cuatro opciones y explicaciones. Las preguntas 148 y 181 están anuladas y no puntúan. La plantilla original cubría 51–200; la clave 1–50 se ha completado durante la incorporación. Consulta el [registro de revisión](MIR/MIR_IA_1/REVIEW.md) para conocer su procedencia y las incidencias. No hay un generador de IA conectado y sigue siendo necesaria una revisión clínica independiente del material.
 
 ## Puntuación y límites
 

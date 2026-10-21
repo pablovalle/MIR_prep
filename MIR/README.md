@@ -1,6 +1,6 @@
 # Exámenes
 
-Cada examen tiene su propia carpeta con un `exam.json`. `demo/exam.json` muestra el formato completo. Más adelante se pueden añadir aquí los MIR generados y revisados.
+Cada examen tiene su propia carpeta con un `exam.json`. `demo/exam.json` muestra el formato completo. [MIR_IA_1](MIR_IA_1/REVIEW.md) es el primer simulacro médico: 200 preguntas, de las que 198 puntúan; el registro explica la plantilla completada y las dos anulaciones.
 
 Campos del examen: `id` único y versionado, `title`, `subtitle`, `description`, `category`, `isDemo`, `durationMinutes`, `scoring` y `questions`.
 

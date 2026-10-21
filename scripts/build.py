@@ -172,6 +172,8 @@ def build(include_sql=False, require_backend=False):
             (target / "demo-solutions.json").write_text(json.dumps(solutions, ensure_ascii=False), encoding="utf-8")
         catalog.append({**{k: v for k, v in public.items() if k != "questions"},
                         "questionCount": sum(not q.get("voided", False) for q in exam["questions"]),
+                        "totalQuestionCount": len(exam["questions"]),
+                        "voidedQuestionCount": sum(bool(q.get("voided", False)) for q in exam["questions"]),
                         "path": f"./MIR/{exam['id']}/exam.json"})
         imports.append(sql_import(exam, public))
     (output / "MIR").mkdir(exist_ok=True)

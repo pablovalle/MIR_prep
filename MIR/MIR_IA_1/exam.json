@@ -1,0 +1,5030 @@
+{
+  "id": "mir-ia-1-v1",
+  "title": "MIR_IA_1",
+  "subtitle": "Simulacro de entrenamiento · 200 preguntas",
+  "description": "Simulacro original de entrenamiento elaborado con el material de IA aportado. 200 preguntas en orden, 198 puntuables: las preguntas 148 y 181 están anuladas por defectos en sus opciones. La clave 1–50 se ha completado; la 51–200 conserva la plantilla aportada. +3 por acierto, −1 por error y 0 por blanco. No es un examen oficial ni predice el MIR 2027.",
+  "category": "Simulacro MIR",
+  "isDemo": false,
+  "durationMinutes": 270,
+  "scoring": {
+    "correct": 3,
+    "incorrect": -1,
+    "blank": 0
+  },
+  "editorialNotes": {
+    "source": "Preguntas y plantilla de IA aportadas por el usuario el 21 de octubre de 2026. Sin cabeceras, firma ni datos personales del correo.",
+    "answers1to50": "Clave completada durante la incorporación: no estaba en la plantilla original. Es una propuesta de corrección pendiente de revisión clínica independiente.",
+    "answers51to200": "Se conserva la plantilla original, incluidas las claves pretendidas C de las preguntas anuladas 148 y 181; esas claves nunca puntúan.",
+    "explanations": "Explicaciones añadidas durante la incorporación, con comprobaciones dirigidas de puntos conflictivos. No constituyen una revisión clínica exhaustiva.",
+    "voided": [
+      148,
+      181
+    ],
+    "reserves": 0,
+    "timing": "270 minutos orientativos; no se fuerza la entrega al agotarse el tiempo."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "specialty": "Cardiología",
+      "statement": "Un hombre de 58 años presenta dolor torácico opresivo de 60 minutos. El ECG muestra elevación del ST en II, III y aVF. ¿Cuál es la actuación más adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Realizar una prueba de esfuerzo."
+        },
+        {
+          "id": "b",
+          "text": "Administrar únicamente nitroglicerina."
+        },
+        {
+          "id": "c",
+          "text": "Activar el protocolo de reperfusión coronaria urgente."
+        },
+        {
+          "id": "d",
+          "text": "Esperar al resultado de las troponinas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El cuadro es compatible con un infarto con elevación del ST de localización inferior. La reperfusión es urgente y no debe retrasarse esperando las troponinas."
+    },
+    {
+      "id": "q2",
+      "specialty": "Cardiología",
+      "statement": "Un paciente con fibrilación auricular presenta hipotensión, dolor torácico y signos de shock. ¿Cuál es el tratamiento indicado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cardioversión eléctrica sincronizada urgente."
+        },
+        {
+          "id": "b",
+          "text": "Digoxina oral."
+        },
+        {
+          "id": "c",
+          "text": "Anticoagulación y alta domiciliaria."
+        },
+        {
+          "id": "d",
+          "text": "Betabloqueantes orales."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La fibrilación auricular con inestabilidad hemodinámica requiere cardioversión eléctrica sincronizada urgente. Las medidas sobre la anticoagulación se valoran sin demorar la estabilización."
+    },
+    {
+      "id": "q3",
+      "specialty": "Cardiología",
+      "statement": "¿Qué hallazgo es característico de la estenosis aórtica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soplo diastólico en foco mitral."
+        },
+        {
+          "id": "b",
+          "text": "Soplo sistólico irradiado a las carótidas."
+        },
+        {
+          "id": "c",
+          "text": "Soplo continuo infraclavicular."
+        },
+        {
+          "id": "d",
+          "text": "Desdoblamiento fijo del segundo ruido."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La obstrucción a la salida del ventrículo izquierdo produce un soplo sistólico eyectivo que típicamente se irradia hacia las carótidas."
+    },
+    {
+      "id": "q4",
+      "specialty": "Cardiología",
+      "statement": "Un paciente presenta disnea, ingurgitación yugular e hipotensión. La ecografía muestra derrame pericárdico con colapso de cavidades derechas. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miocardiopatía hipertrófica."
+        },
+        {
+          "id": "b",
+          "text": "Estenosis mitral."
+        },
+        {
+          "id": "c",
+          "text": "Insuficiencia aórtica."
+        },
+        {
+          "id": "d",
+          "text": "Taponamiento cardíaco."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El derrame comprime las cavidades cardíacas y dificulta su llenado. La hipotensión, la ingurgitación yugular y el colapso de cavidades derechas apoyan el taponamiento."
+    },
+    {
+      "id": "q5",
+      "specialty": "Cardiología",
+      "statement": "¿Cuál de los siguientes fármacos ha demostrado reducir la mortalidad en pacientes con insuficiencia cardíaca con fracción de eyección reducida?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verapamilo."
+        },
+        {
+          "id": "b",
+          "text": "Ibuprofeno."
+        },
+        {
+          "id": "c",
+          "text": "Carvedilol."
+        },
+        {
+          "id": "d",
+          "text": "Diltiazem."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Carvedilol es uno de los betabloqueantes con beneficio pronóstico en la insuficiencia cardíaca con fracción de eyección reducida, utilizado en pacientes clínicamente estables y según tolerancia."
+    },
+    {
+      "id": "q6",
+      "specialty": "Cardiología",
+      "statement": "Un paciente presenta dolor torácico que mejora al inclinarse hacia delante. El ECG muestra elevación difusa del ST y descenso del PR. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pericarditis aguda."
+        },
+        {
+          "id": "b",
+          "text": "Embolia pulmonar."
+        },
+        {
+          "id": "c",
+          "text": "Disección aórtica."
+        },
+        {
+          "id": "d",
+          "text": "Neumotórax."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El dolor posicional, la elevación difusa del ST y la depresión del PR son hallazgos característicos de la pericarditis aguda."
+    },
+    {
+      "id": "q7",
+      "specialty": "Cardiología",
+      "statement": "¿Cuál es el principal factor de riesgo modificable para la enfermedad coronaria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grupo sanguíneo."
+        },
+        {
+          "id": "b",
+          "text": "Tabaquismo."
+        },
+        {
+          "id": "c",
+          "text": "Edad."
+        },
+        {
+          "id": "d",
+          "text": "Antecedentes familiares."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Entre las opciones, el tabaquismo es el factor modificable. La palabra «principal» es imprecisa sin especificar población: también son relevantes la hipertensión, las dislipidemias y la diabetes."
+    },
+    {
+      "id": "q8",
+      "specialty": "Cardiología",
+      "statement": "Un paciente hipertenso presenta cefalea intensa, confusión y edema de papila. ¿Cómo debe considerarse esta situación?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipertensión leve."
+        },
+        {
+          "id": "b",
+          "text": "Hipertensión de bata blanca."
+        },
+        {
+          "id": "c",
+          "text": "Hipotensión ortostática."
+        },
+        {
+          "id": "d",
+          "text": "Emergencia hipertensiva."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Los signos neurológicos y el edema de papila sugieren lesión aguda de órgano diana asociada a hipertensión, lo que obliga a considerar una emergencia hipertensiva."
+    },
+    {
+      "id": "q9",
+      "specialty": "Cardiología",
+      "statement": "¿Qué alteración electrocardiográfica se asocia clásicamente a la hiperpotasemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ondas T picudas."
+        },
+        {
+          "id": "b",
+          "text": "Ondas U prominentes como hallazgo típico."
+        },
+        {
+          "id": "c",
+          "text": "QT prolongado de forma característica."
+        },
+        {
+          "id": "d",
+          "text": "Ondas P progresivamente más altas."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Las ondas T altas y picudas son un hallazgo clásico de hiperpotasemia. La ausencia de cambios en el ECG no excluye una hiperpotasemia peligrosa."
+    },
+    {
+      "id": "q10",
+      "specialty": "Cardiología",
+      "statement": "Un paciente presenta síncope durante el esfuerzo y un soplo sistólico intenso. ¿Qué enfermedad debe descartarse especialmente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insuficiencia tricuspídea leve."
+        },
+        {
+          "id": "b",
+          "text": "Pericarditis viral."
+        },
+        {
+          "id": "c",
+          "text": "Estenosis aórtica grave."
+        },
+        {
+          "id": "d",
+          "text": "Hipertensión pulmonar leve."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El síncope de esfuerzo acompañado de un soplo sistólico orienta a una obstrucción significativa a la eyección, como una estenosis aórtica grave."
+    },
+    {
+      "id": "q11",
+      "specialty": "Neumología",
+      "statement": "Un paciente con EPOC presenta disnea, somnolencia y pH de 7,28 con PaCO₂ elevada. Está consciente y hemodinámicamente estable. ¿Qué tratamiento debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxígeno a la máxima concentración sin control."
+        },
+        {
+          "id": "b",
+          "text": "Ventilación no invasiva si no existen contraindicaciones."
+        },
+        {
+          "id": "c",
+          "text": "Sedación profunda."
+        },
+        {
+          "id": "d",
+          "text": "Antitusígenos como único tratamiento."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La acidosis respiratoria hipercápnica en una exacerbación de EPOC hace considerar ventilación no invasiva. Requiere vigilancia estrecha, capacidad de proteger la vía aérea y escalada si fracasa."
+    },
+    {
+      "id": "q12",
+      "specialty": "Neumología",
+      "statement": "¿Cuál es la causa más frecuente de una exacerbación infecciosa de EPOC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infección respiratoria, frecuentemente vírica o bacteriana."
+        },
+        {
+          "id": "b",
+          "text": "Hipotiroidismo."
+        },
+        {
+          "id": "c",
+          "text": "Hipercalcemia."
+        },
+        {
+          "id": "d",
+          "text": "Pancreatitis."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La opción compatible con una exacerbación infecciosa es una infección respiratoria vírica o bacteriana. El enunciado es redundante al especificar ya su naturaleza infecciosa."
+    },
+    {
+      "id": "q13",
+      "specialty": "Neumología",
+      "statement": "Un paciente presenta disnea súbita, dolor pleurítico y taquicardia después de una inmovilización prolongada. ¿Cuál es el diagnóstico que debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fibrosis pulmonar."
+        },
+        {
+          "id": "b",
+          "text": "Neumonía lobar como única posibilidad."
+        },
+        {
+          "id": "c",
+          "text": "Asma crónica estable."
+        },
+        {
+          "id": "d",
+          "text": "Tromboembolia pulmonar."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La inmovilización aumenta el riesgo tromboembólico. La disnea de inicio súbito con dolor pleurítico y taquicardia hace sospechar tromboembolia pulmonar."
+    },
+    {
+      "id": "q14",
+      "specialty": "Neumología",
+      "statement": "¿Cuál es el patrón espirométrico típico de la EPOC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aumento aislado de la capacidad vital."
+        },
+        {
+          "id": "b",
+          "text": "Relación FEV1/FVC normal o elevada en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Disminución de la relación FEV1/FVC."
+        },
+        {
+          "id": "d",
+          "text": "Aumento obligatorio del FEV1 tras broncodilatador hasta valores normales."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El patrón obstructivo se caracteriza por una disminución de FEV1/FVC. La confirmación de EPOC exige valorar la espirometría posbroncodilatador en el contexto clínico."
+    },
+    {
+      "id": "q15",
+      "specialty": "Neumología",
+      "statement": "Un joven presenta episodios de sibilancias y disnea que empeoran por la noche y mejoran con broncodilatadores. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fibrosis pulmonar idiopática."
+        },
+        {
+          "id": "b",
+          "text": "Asma bronquial."
+        },
+        {
+          "id": "c",
+          "text": "Derrame pleural."
+        },
+        {
+          "id": "d",
+          "text": "Neumoconiosis."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La variabilidad de los síntomas, el empeoramiento nocturno y la mejoría con broncodilatadores son típicos del asma, cuya confirmación requiere demostrar limitación variable del flujo aéreo."
+    },
+    {
+      "id": "q16",
+      "specialty": "Neumología",
+      "statement": "¿Qué prueba permite confirmar la presencia de un neumotórax en un paciente estable cuando la radiografía no es concluyente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Electroencefalograma."
+        },
+        {
+          "id": "b",
+          "text": "Colonoscopia."
+        },
+        {
+          "id": "c",
+          "text": "Espirometría aislada."
+        },
+        {
+          "id": "d",
+          "text": "Tomografía computarizada torácica."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La TC torácica permite detectar neumotórax no evidentes en la radiografía. El enunciado especifica estabilidad; ante un neumotórax a tensión no debe demorarse el tratamiento por pruebas de imagen."
+    },
+    {
+      "id": "q17",
+      "specialty": "Neumología",
+      "statement": "Un paciente presenta fiebre, tos productiva, dolor pleurítico y un infiltrado alveolar focal. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neumonía."
+        },
+        {
+          "id": "b",
+          "text": "Migraña."
+        },
+        {
+          "id": "c",
+          "text": "Insuficiencia venosa."
+        },
+        {
+          "id": "d",
+          "text": "Cistitis."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Los síntomas respiratorios infecciosos acompañados de un infiltrado alveolar focal orientan a neumonía."
+    },
+    {
+      "id": "q18",
+      "specialty": "Neumología",
+      "statement": "¿Cuál es el principal factor de riesgo para desarrollar cáncer de pulmón?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumo moderado de café."
+        },
+        {
+          "id": "b",
+          "text": "Miopía."
+        },
+        {
+          "id": "c",
+          "text": "Tabaquismo."
+        },
+        {
+          "id": "d",
+          "text": "Hipotiroidismo tratado."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El tabaquismo es un factor de riesgo principal y prevenible para el cáncer de pulmón. El riesgo depende también de la exposición acumulada y de otros factores."
+    },
+    {
+      "id": "q19",
+      "specialty": "Neumología",
+      "statement": "Un paciente presenta tos crónica, pérdida de peso, sudoración nocturna y hemoptisis. ¿Qué enfermedad debe descartarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rinitis alérgica."
+        },
+        {
+          "id": "b",
+          "text": "Tuberculosis pulmonar."
+        },
+        {
+          "id": "c",
+          "text": "Otitis media."
+        },
+        {
+          "id": "d",
+          "text": "Gastritis."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La tos persistente con síntomas constitucionales y hemoptisis obliga a investigar tuberculosis pulmonar, además de otros diagnósticos del aparato respiratorio."
+    },
+    {
+      "id": "q20",
+      "specialty": "Neumología",
+      "statement": "¿Qué hallazgo es típico de una enfermedad pulmonar restrictiva?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aumento constante de la capacidad pulmonar total."
+        },
+        {
+          "id": "b",
+          "text": "Obstrucción reversible obligatoria."
+        },
+        {
+          "id": "c",
+          "text": "Aumento aislado del volumen residual en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Disminución de la capacidad pulmonar total."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La restricción se confirma por una capacidad pulmonar total reducida. Una FVC baja por sí sola no basta para confirmarla."
+    },
+    {
+      "id": "q21",
+      "specialty": "Digestivo",
+      "statement": "Un paciente presenta dolor epigástrico intenso irradiado a la espalda y lipasa superior a tres veces el límite normal. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pancreatitis aguda."
+        },
+        {
+          "id": "b",
+          "text": "Apendicitis retrocecal."
+        },
+        {
+          "id": "c",
+          "text": "Colitis ulcerosa."
+        },
+        {
+          "id": "d",
+          "text": "Hepatitis crónica."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El dolor característico y una lipasa superior a tres veces el límite normal son dos criterios diagnósticos de pancreatitis aguda."
+    },
+    {
+      "id": "q22",
+      "specialty": "Digestivo",
+      "statement": "¿Cuál es la causa más frecuente de pancreatitis aguda en muchos países occidentales?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipotiroidismo."
+        },
+        {
+          "id": "b",
+          "text": "Enfermedad celíaca."
+        },
+        {
+          "id": "c",
+          "text": "Litiasis biliar."
+        },
+        {
+          "id": "d",
+          "text": "Hernia inguinal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La litiasis biliar es una de las principales causas de pancreatitis aguda y la mejor respuesta entre las propuestas. Su frecuencia relativa varía según la población."
+    },
+    {
+      "id": "q23",
+      "specialty": "Digestivo",
+      "statement": "Un paciente presenta hematemesis abundante e hipotensión. ¿Cuál es la prioridad inicial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colonoscopia ambulatoria."
+        },
+        {
+          "id": "b",
+          "text": "Estabilización hemodinámica y evaluación urgente."
+        },
+        {
+          "id": "c",
+          "text": "Administrar laxantes."
+        },
+        {
+          "id": "d",
+          "text": "Dar el alta si deja de vomitar."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La hemorragia digestiva con hipotensión requiere estabilizar al paciente y evaluar urgentemente el origen y el control del sangrado."
+    },
+    {
+      "id": "q24",
+      "specialty": "Digestivo",
+      "statement": "¿Qué anticuerpos se utilizan habitualmente como primera prueba serológica para estudiar la enfermedad celíaca?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anticuerpos antinucleares exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Anticuerpos anti-CCP."
+        },
+        {
+          "id": "c",
+          "text": "Anticuerpos antimúsculo liso exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "Anticuerpos antitransglutaminasa tisular IgA, junto con IgA total."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El estudio inicial habitual incluye antitransglutaminasa tisular IgA e IgA total. El déficit de IgA obliga a considerar pruebas basadas en IgG; la evaluación se realiza con consumo de gluten."
+    },
+    {
+      "id": "q25",
+      "specialty": "Digestivo",
+      "statement": "Un paciente presenta ictericia, fiebre y dolor en el hipocondrio derecho. ¿Qué diagnóstico debe sospecharse especialmente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome del intestino irritable."
+        },
+        {
+          "id": "b",
+          "text": "Enfermedad por reflujo gastroesofágico."
+        },
+        {
+          "id": "c",
+          "text": "Colangitis aguda."
+        },
+        {
+          "id": "d",
+          "text": "Hemorroides."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La combinación de fiebre, dolor en hipocondrio derecho e ictericia constituye la tríada clásica de Charcot, sugestiva de colangitis aguda."
+    },
+    {
+      "id": "q26",
+      "specialty": "Digestivo",
+      "statement": "¿Cuál es la localización más frecuente del cáncer colorrectal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colon y recto, con frecuencia en regiones distales, aunque puede aparecer en cualquier segmento."
+        },
+        {
+          "id": "b",
+          "text": "Esófago cervical exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "Apéndice en la mayoría de los casos."
+        },
+        {
+          "id": "d",
+          "text": "Estómago proximal exclusivamente."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La única opción compatible es colon y recto. El enunciado no permite concretar un segmento «más frecuente» universal: la distribución varía entre poblaciones y con la edad."
+    },
+    {
+      "id": "q27",
+      "specialty": "Digestivo",
+      "statement": "Un paciente presenta diarrea sanguinolenta recurrente y afectación continua de la mucosa desde el recto. ¿Qué enfermedad es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enfermedad de Crohn exclusivamente ileal."
+        },
+        {
+          "id": "b",
+          "text": "Colitis ulcerosa."
+        },
+        {
+          "id": "c",
+          "text": "Síndrome de Gilbert."
+        },
+        {
+          "id": "d",
+          "text": "Acalasia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La colitis ulcerosa afecta de forma continua la mucosa del colon, habitualmente desde el recto, y puede causar diarrea sanguinolenta."
+    },
+    {
+      "id": "q28",
+      "specialty": "Digestivo",
+      "statement": "¿Cuál es una complicación frecuente de la cirrosis hepática avanzada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipertiroidismo."
+        },
+        {
+          "id": "b",
+          "text": "Otitis externa."
+        },
+        {
+          "id": "c",
+          "text": "Glaucoma agudo."
+        },
+        {
+          "id": "d",
+          "text": "Ascitis."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La hipertensión portal y las alteraciones circulatorias de la cirrosis favorecen la acumulación de líquido en la cavidad peritoneal, llamada ascitis."
+    },
+    {
+      "id": "q29",
+      "specialty": "Digestivo",
+      "statement": "Un paciente con cirrosis presenta hematemesis por varices esofágicas. Además de la estabilización, ¿qué tratamiento farmacológico se utiliza habitualmente desde el inicio?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiinflamatorios no esteroideos."
+        },
+        {
+          "id": "b",
+          "text": "Anticoagulación a dosis plenas de forma sistemática."
+        },
+        {
+          "id": "c",
+          "text": "Un fármaco vasoactivo como terlipresina y profilaxis antibiótica."
+        },
+        {
+          "id": "d",
+          "text": "Corticoides en monoterapia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ante una hemorragia varicosa se inicia tratamiento vasoactivo y profilaxis antibiótica, junto con la estabilización y el tratamiento endoscópico según la situación clínica."
+    },
+    {
+      "id": "q30",
+      "specialty": "Digestivo",
+      "statement": "¿Qué prueba es fundamental para confirmar una úlcera péptica y valorar lesiones sospechosas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "id": "b",
+          "text": "Electrocardiograma."
+        },
+        {
+          "id": "c",
+          "text": "Audiometría."
+        },
+        {
+          "id": "d",
+          "text": "Densitometría ósea."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La endoscopia digestiva alta permite visualizar la mucosa gastroduodenal, identificar una úlcera y obtener biopsias cuando están indicadas."
+    },
+    {
+      "id": "q31",
+      "specialty": "Endocrinología",
+      "statement": "Un paciente diabético presenta glucemia de 450 mg/dl, cetonemia elevada y acidosis metabólica. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipoglucemia reactiva."
+        },
+        {
+          "id": "b",
+          "text": "Diabetes insípida."
+        },
+        {
+          "id": "c",
+          "text": "Síndrome de Cushing."
+        },
+        {
+          "id": "d",
+          "text": "Cetoacidosis diabética."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La hiperglucemia, la cetonemia y la acidosis metabólica constituyen el cuadro característico de cetoacidosis diabética."
+    },
+    {
+      "id": "q32",
+      "specialty": "Endocrinología",
+      "statement": "¿Qué alteración hormonal caracteriza al hipotiroidismo primario manifiesto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TSH baja y T4 libre elevada."
+        },
+        {
+          "id": "b",
+          "text": "TSH elevada y T4 libre disminuida."
+        },
+        {
+          "id": "c",
+          "text": "TSH indetectable y T4 libre elevada en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "TSH y T4 libre siempre normales."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El fallo primario de la tiroides reduce la T4 libre y provoca una elevación compensatoria de la TSH. La T4 libre baja distingue el hipotiroidismo manifiesto del subclínico."
+    },
+    {
+      "id": "q33",
+      "specialty": "Endocrinología",
+      "statement": "Un paciente presenta pérdida de peso, temblor, taquicardia e intolerancia al calor. ¿Qué enfermedad debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipotiroidismo."
+        },
+        {
+          "id": "b",
+          "text": "Insuficiencia suprarrenal."
+        },
+        {
+          "id": "c",
+          "text": "Hipertiroidismo."
+        },
+        {
+          "id": "d",
+          "text": "Hipoparatiroidismo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Estos síntomas son compatibles con exceso de hormonas tiroideas. La evaluación de TSH y T4 libre permite orientar la confirmación diagnóstica."
+    },
+    {
+      "id": "q34",
+      "specialty": "Endocrinología",
+      "statement": "¿Cuál es la principal complicación aguda de una hipoglucemia grave?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alteración neurológica, incluyendo convulsiones o pérdida de conciencia."
+        },
+        {
+          "id": "b",
+          "text": "Hipertrofia prostática."
+        },
+        {
+          "id": "c",
+          "text": "Colelitiasis obligatoria."
+        },
+        {
+          "id": "d",
+          "text": "Osteoartritis."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La falta de glucosa disponible para el cerebro produce neuroglucopenia, que puede manifestarse con confusión, convulsiones o pérdida de conciencia."
+    },
+    {
+      "id": "q35",
+      "specialty": "Endocrinología",
+      "statement": "¿Qué hormona está elevada de forma característica en el hiperparatiroidismo primario?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcitonina exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Insulina."
+        },
+        {
+          "id": "c",
+          "text": "Aldosterona en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Hormona paratiroidea (PTH)."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El hiperparatiroidismo primario se asocia a PTH elevada o inapropiadamente normal para una calcemia elevada. Entre las opciones, corresponde a la PTH."
+    },
+    {
+      "id": "q36",
+      "specialty": "Endocrinología",
+      "statement": "Un paciente presenta obesidad central, debilidad muscular proximal, estrías violáceas e hipertensión. ¿Qué síndrome debe investigarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome de intestino irritable."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome de Cushing."
+        },
+        {
+          "id": "c",
+          "text": "Enfermedad de Addison."
+        },
+        {
+          "id": "d",
+          "text": "Diabetes insípida nefrogénica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La distribución central de la grasa, las estrías violáceas y la debilidad proximal sugieren hipercortisolismo, que debe estudiarse con pruebas adecuadas al contexto."
+    },
+    {
+      "id": "q37",
+      "specialty": "Endocrinología",
+      "statement": "¿Qué prueba se utiliza habitualmente para diagnosticar diabetes mellitus, entre otros criterios aceptados?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bilirrubina total."
+        },
+        {
+          "id": "b",
+          "text": "Troponina aislada."
+        },
+        {
+          "id": "c",
+          "text": "Hemoglobina glicosilada (HbA1c), con criterios diagnósticos establecidos."
+        },
+        {
+          "id": "d",
+          "text": "Amilasa sérica."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La HbA1c es uno de los criterios diagnósticos aceptados, utilizando métodos estandarizados y teniendo en cuenta situaciones que alteran su fiabilidad. Puede requerirse confirmación."
+    },
+    {
+      "id": "q38",
+      "specialty": "Endocrinología",
+      "statement": "Un paciente con insuficiencia suprarrenal primaria puede presentar:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipotensión, hiponatremia e hiperpotasemia."
+        },
+        {
+          "id": "b",
+          "text": "Hipertensión intensa e hipopotasemia obligatorias."
+        },
+        {
+          "id": "c",
+          "text": "Hipercalcemia como único hallazgo."
+        },
+        {
+          "id": "d",
+          "text": "TSH indetectable en todos los casos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El déficit de cortisol y, con frecuencia, de aldosterona explica la hipotensión, la hiponatremia y la hiperpotasemia de la insuficiencia suprarrenal primaria."
+    },
+    {
+      "id": "q39",
+      "specialty": "Endocrinología",
+      "statement": "¿Qué complicación microvascular se asocia a la diabetes mellitus de larga evolución?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aneurisma de aorta en todos los pacientes."
+        },
+        {
+          "id": "b",
+          "text": "Otitis media recurrente."
+        },
+        {
+          "id": "c",
+          "text": "Apendicitis crónica."
+        },
+        {
+          "id": "d",
+          "text": "Retinopatía diabética."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La retinopatía diabética es una complicación microvascular de la diabetes, al igual que la nefropatía y parte de la afectación neuropática."
+    },
+    {
+      "id": "q40",
+      "specialty": "Endocrinología",
+      "statement": "Un paciente presenta poliuria intensa, polidipsia y orina muy diluida. ¿Qué alteración debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome nefrótico exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Diabetes insípida."
+        },
+        {
+          "id": "c",
+          "text": "Hipoparatiroidismo."
+        },
+        {
+          "id": "d",
+          "text": "Colitis ulcerosa."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La diabetes insípida causa dificultad para concentrar la orina por déficit de acción de la vasopresina. La polidipsia primaria y otras causas de poliuria forman parte del diagnóstico diferencial."
+    },
+    {
+      "id": "q41",
+      "specialty": "Neurología",
+      "statement": "Un paciente presenta hemiparesia derecha y afasia de inicio brusco. ¿Cuál es la actuación inicial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Administrar sedantes y esperar."
+        },
+        {
+          "id": "b",
+          "text": "Iniciar rehabilitación sin realizar pruebas."
+        },
+        {
+          "id": "c",
+          "text": "Activar el código ictus y realizar neuroimagen urgente."
+        },
+        {
+          "id": "d",
+          "text": "Administrar anticoagulantes sin descartar hemorragia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El déficit neurológico focal súbito obliga a activar el código ictus. La neuroimagen urgente distingue hemorragia de isquemia y orienta el tratamiento."
+    },
+    {
+      "id": "q42",
+      "specialty": "Neurología",
+      "statement": "¿Cuál es el síntoma cardinal de la enfermedad de Parkinson?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bradicinesia."
+        },
+        {
+          "id": "b",
+          "text": "Hemianopsia obligatoria."
+        },
+        {
+          "id": "c",
+          "text": "Parálisis flácida aguda como presentación típica."
+        },
+        {
+          "id": "d",
+          "text": "Afasia progresiva en todos los pacientes."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La bradicinesia es esencial para definir el síndrome parkinsoniano y se acompaña de rigidez y/o temblor de reposo, según el caso."
+    },
+    {
+      "id": "q43",
+      "specialty": "Neurología",
+      "statement": "Una mujer presenta cefalea pulsátil unilateral, náuseas y fotofobia recurrentes. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neuralgia del trigémino."
+        },
+        {
+          "id": "b",
+          "text": "Meningitis bacteriana en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Hemorragia subaracnoidea necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Migraña."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El dolor recurrente pulsátil, habitualmente unilateral, con náuseas y fotofobia es característico de la migraña."
+    },
+    {
+      "id": "q44",
+      "specialty": "Neurología",
+      "statement": "¿Qué hallazgo es característico de una meningitis bacteriana?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ausencia obligatoria de fiebre."
+        },
+        {
+          "id": "b",
+          "text": "Pleocitosis en líquido cefalorraquídeo, habitualmente con predominio neutrofílico."
+        },
+        {
+          "id": "c",
+          "text": "Glucosa del líquido cefalorraquídeo siempre elevada."
+        },
+        {
+          "id": "d",
+          "text": "Líquido cefalorraquídeo siempre normal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La meningitis bacteriana suele producir pleocitosis con predominio neutrofílico, proteínas elevadas y glucosa reducida en LCR; existen excepciones según el momento y el contexto."
+    },
+    {
+      "id": "q45",
+      "specialty": "Neurología",
+      "statement": "Un paciente presenta una crisis convulsiva generalizada que continúa durante más de cinco minutos. ¿Cuál es el tratamiento inicial habitual?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Administrar únicamente paracetamol."
+        },
+        {
+          "id": "b",
+          "text": "Esperar una hora sin intervenir."
+        },
+        {
+          "id": "c",
+          "text": "Administrar una benzodiacepina y tratar las causas desencadenantes."
+        },
+        {
+          "id": "d",
+          "text": "Indicar una dieta sin gluten como medida urgente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Una crisis convulsiva prolongada exige tratamiento urgente del estado epiléptico. Las benzodiacepinas son el tratamiento farmacológico inicial, junto con soporte vital y evaluación de causas reversibles."
+    },
+    {
+      "id": "q46",
+      "specialty": "Neurología",
+      "statement": "¿Qué enfermedad se caracteriza por desmielinización del sistema nervioso central y brotes neurológicos separados en el tiempo y el espacio?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esclerosis múltiple."
+        },
+        {
+          "id": "b",
+          "text": "Miastenia gravis."
+        },
+        {
+          "id": "c",
+          "text": "Neuropatía diabética exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "Enfermedad de Huntington en todos los casos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La esclerosis múltiple es una enfermedad desmielinizante del sistema nervioso central. La diseminación de lesiones en tiempo y espacio es clave en su diagnóstico."
+    },
+    {
+      "id": "q47",
+      "specialty": "Neurología",
+      "statement": "Un paciente presenta debilidad ascendente, arreflexia y antecedente de infección gastrointestinal. ¿Qué diagnóstico debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esclerosis lateral amiotrófica como primera posibilidad obligatoria."
+        },
+        {
+          "id": "b",
+          "text": "Miopatía por estatinas exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "Enfermedad de Alzheimer."
+        },
+        {
+          "id": "d",
+          "text": "Síndrome de Guillain-Barré."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La debilidad progresiva ascendente y la arreflexia tras una infección son características del síndrome de Guillain-Barré, que requiere vigilar la función respiratoria y autonómica."
+    },
+    {
+      "id": "q48",
+      "specialty": "Neurología",
+      "statement": "¿Cuál es una manifestación típica de la miastenia gravis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rigidez muscular constante que mejora con el esfuerzo."
+        },
+        {
+          "id": "b",
+          "text": "Debilidad fatigable que puede afectar a la musculatura ocular."
+        },
+        {
+          "id": "c",
+          "text": "Pérdida sensitiva completa como síntoma principal."
+        },
+        {
+          "id": "d",
+          "text": "Hiperreflexia obligatoria."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La alteración de la transmisión neuromuscular produce debilidad que empeora con el uso. La ptosis y la diplopía son manifestaciones oculares frecuentes."
+    },
+    {
+      "id": "q49",
+      "specialty": "Neurología",
+      "statement": "Un anciano presenta deterioro progresivo de la memoria y de otras funciones cognitivas que interfiere con su vida diaria. ¿Cuál es una causa frecuente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meningitis aguda en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Hipoglucemia permanente."
+        },
+        {
+          "id": "c",
+          "text": "Enfermedad de Alzheimer."
+        },
+        {
+          "id": "d",
+          "text": "Migraña episódica."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La enfermedad de Alzheimer es una causa frecuente de deterioro cognitivo progresivo con pérdida de autonomía. El diagnóstico requiere una evaluación que considere otras causas."
+    },
+    {
+      "id": "q50",
+      "specialty": "Neurología",
+      "statement": "¿Qué signo obliga a descartar una hemorragia subaracnoidea en un paciente con cefalea?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cefalea súbita e intensísima, de máxima intensidad desde el inicio."
+        },
+        {
+          "id": "b",
+          "text": "Cefalea leve que aparece siempre después de leer."
+        },
+        {
+          "id": "c",
+          "text": "Dolor crónico idéntico durante diez años sin cambios."
+        },
+        {
+          "id": "d",
+          "text": "Prurito aislado del cuero cabelludo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La cefalea en trueno, de máxima intensidad desde el inicio, es un signo de alarma que exige descartar hemorragia subaracnoidea y otras causas vasculares urgentes."
+    },
+    {
+      "id": "q51",
+      "specialty": "Nefrología",
+      "statement": "Un paciente presenta edemas, proteinuria de 5 g/24 horas e hipoalbuminemia. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome nefrítico."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome nefrótico."
+        },
+        {
+          "id": "c",
+          "text": "Insuficiencia renal prerrenal."
+        },
+        {
+          "id": "d",
+          "text": "Pielonefritis aguda."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La proteinuria en rango nefrótico, junto con hipoalbuminemia y edemas, define el cuadro de síndrome nefrótico."
+    },
+    {
+      "id": "q52",
+      "specialty": "Nefrología",
+      "statement": "¿Cuál es una causa frecuente de insuficiencia renal aguda prerrenal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obstrucción bilateral de los uréteres."
+        },
+        {
+          "id": "b",
+          "text": "Glomerulonefritis rápidamente progresiva."
+        },
+        {
+          "id": "c",
+          "text": "Hipovolemia."
+        },
+        {
+          "id": "d",
+          "text": "Necrosis papilar."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La hipovolemia reduce la perfusión renal y puede provocar lesión renal aguda prerrenal. La obstrucción urinaria corresponde a una causa posrenal."
+    },
+    {
+      "id": "q53",
+      "specialty": "Nefrología",
+      "statement": "Un paciente presenta potasio de 7 mmol/l y alteraciones electrocardiográficas. ¿Cuál es la primera medida farmacológica para proteger el corazón?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gluconato cálcico intravenoso."
+        },
+        {
+          "id": "b",
+          "text": "Furosemida oral."
+        },
+        {
+          "id": "c",
+          "text": "Bicarbonato oral exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "Suplementos de potasio."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El calcio intravenoso estabiliza la membrana miocárdica ante cambios del ECG por hiperpotasemia. No reduce el potasio: se requieren además medidas para desplazarlo y eliminarlo."
+    },
+    {
+      "id": "q54",
+      "specialty": "Nefrología",
+      "statement": "¿Qué hallazgo es característico de un síndrome nefrítico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proteinuria masiva sin hematuria."
+        },
+        {
+          "id": "b",
+          "text": "Hipoproteinemia aislada."
+        },
+        {
+          "id": "c",
+          "text": "Glucosuria sin hiperglucemia."
+        },
+        {
+          "id": "d",
+          "text": "Hematuria, hipertensión y deterioro de la función renal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La inflamación glomerular del síndrome nefrítico produce hematuria y puede acompañarse de hipertensión, oliguria y deterioro de la función renal."
+    },
+    {
+      "id": "q55",
+      "specialty": "Nefrología",
+      "statement": "Un paciente con enfermedad renal crónica presenta anemia normocítica. ¿Cuál es una causa importante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exceso de eritropoyetina."
+        },
+        {
+          "id": "b",
+          "text": "Disminución de la producción renal de eritropoyetina."
+        },
+        {
+          "id": "c",
+          "text": "Déficit de vitamina C exclusivamente."
+        },
+        {
+          "id": "d",
+          "text": "Aumento de la absorción intestinal de hierro."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La menor producción renal de eritropoyetina contribuye a la anemia de la enfermedad renal crónica. También deben evaluarse ferropenia y otras causas coexistentes."
+    },
+    {
+      "id": "q56",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "Un paciente presenta fiebre, hipotensión, taquicardia y sospecha de infección bacteriana grave. ¿Cuál es la actuación adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esperar al resultado de todos los cultivos antes de tratar."
+        },
+        {
+          "id": "b",
+          "text": "Administrar exclusivamente antitérmicos."
+        },
+        {
+          "id": "c",
+          "text": "Evaluación urgente, cultivos cuando no retrasen el tratamiento, antibióticos precoces y reanimación según necesidad."
+        },
+        {
+          "id": "d",
+          "text": "Dar el alta si la saturación es normal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La posible sepsis con hipotensión requiere evaluación y tratamiento precoces. La obtención de cultivos no debe retrasar de forma relevante el inicio de antibióticos y la estabilización."
+    },
+    {
+      "id": "q57",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "¿Cuál es el tratamiento de elección de la sífilis precoz no complicada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Penicilina G benzatina intramuscular."
+        },
+        {
+          "id": "b",
+          "text": "Aciclovir oral."
+        },
+        {
+          "id": "c",
+          "text": "Fluconazol."
+        },
+        {
+          "id": "d",
+          "text": "Oseltamivir."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La penicilina G benzatina intramuscular es el tratamiento de referencia de la sífilis precoz no complicada. La afectación neurológica u ocular requiere otra pauta."
+    },
+    {
+      "id": "q58",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "Una persona presenta fiebre, exantema, tos, conjuntivitis y manchas de Koplik. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rubéola."
+        },
+        {
+          "id": "b",
+          "text": "Escarlatina."
+        },
+        {
+          "id": "c",
+          "text": "Varicela."
+        },
+        {
+          "id": "d",
+          "text": "Sarampión."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La combinación de fiebre, tos, conjuntivitis, exantema y manchas de Koplik es característica del sarampión."
+    },
+    {
+      "id": "q59",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "¿Qué microorganismo causa habitualmente la mononucleosis infecciosa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Citomegalovirus exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Virus de Epstein-Barr."
+        },
+        {
+          "id": "c",
+          "text": "Virus de la hepatitis A."
+        },
+        {
+          "id": "d",
+          "text": "Virus respiratorio sincitial."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El virus de Epstein-Barr es la causa clásica de mononucleosis infecciosa. Otros agentes pueden producir síndromes mononucleósicos."
+    },
+    {
+      "id": "q60",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "Un paciente con VIH presenta una cifra de CD4 de 80 células/µl. ¿Qué infección oportunista debe prevenirse habitualmente mediante profilaxis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Faringitis estreptocócica."
+        },
+        {
+          "id": "b",
+          "text": "Otitis externa."
+        },
+        {
+          "id": "c",
+          "text": "Neumonía por Pneumocystis jirovecii."
+        },
+        {
+          "id": "d",
+          "text": "Gastroenteritis por rotavirus en todos los casos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La inmunodepresión avanzada por VIH con CD4 de 80 células/µl indica profilaxis frente a Pneumocystis jirovecii, salvo situaciones específicas valoradas por el equipo tratante."
+    },
+    {
+      "id": "q61",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "¿Cuál es la vía de transmisión más habitual de la hepatitis A?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fecal-oral."
+        },
+        {
+          "id": "b",
+          "text": "Picadura de mosquito."
+        },
+        {
+          "id": "c",
+          "text": "Transmisión exclusivamente sexual."
+        },
+        {
+          "id": "d",
+          "text": "Aerosoles procedentes de la tos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El virus de la hepatitis A se transmite por vía fecal-oral, mediante alimentos o agua contaminados y contacto estrecho, incluidas ciertas prácticas sexuales."
+    },
+    {
+      "id": "q62",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "Un paciente presenta fiebre, rigidez de nuca y alteración de conciencia. Se sospecha meningitis bacteriana. ¿Qué conducta es correcta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esperar siempre al cultivo del líquido cefalorraquídeo."
+        },
+        {
+          "id": "b",
+          "text": "Administrar únicamente analgésicos."
+        },
+        {
+          "id": "c",
+          "text": "Retrasar los antibióticos hasta realizar cualquier prueba pendiente."
+        },
+        {
+          "id": "d",
+          "text": "Iniciar antibióticos empíricos urgentemente, sin retrasarlos por pruebas necesarias."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La sospecha de meningitis bacteriana exige tratamiento empírico urgente. La neuroimagen o la punción lumbar, cuando procedan, no deben causar una demora peligrosa."
+    },
+    {
+      "id": "q63",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "¿Cuál es el agente etiológico más frecuente de la tuberculosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptococcus pneumoniae."
+        },
+        {
+          "id": "b",
+          "text": "Mycobacterium tuberculosis."
+        },
+        {
+          "id": "c",
+          "text": "Legionella pneumophila."
+        },
+        {
+          "id": "d",
+          "text": "Haemophilus influenzae."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mycobacterium tuberculosis es el principal agente causante de tuberculosis humana."
+    },
+    {
+      "id": "q64",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "Un paciente desarrolla diarrea tras recibir antibióticos y presenta dolor abdominal. ¿Qué microorganismo debe sospecharse especialmente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Helicobacter pylori."
+        },
+        {
+          "id": "b",
+          "text": "Mycobacterium leprae."
+        },
+        {
+          "id": "c",
+          "text": "Clostridioides difficile."
+        },
+        {
+          "id": "d",
+          "text": "Treponema pallidum."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La exposición a antibióticos favorece la infección por Clostridioides difficile, causa importante de diarrea y colitis asociadas a antibióticos."
+    },
+    {
+      "id": "q65",
+      "specialty": "Enfermedades infecciosas",
+      "statement": "¿Qué tratamiento se utiliza habitualmente para la candidiasis oral no complicada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un antifúngico tópico, como nistatina, según el caso."
+        },
+        {
+          "id": "b",
+          "text": "Amoxicilina como primera elección."
+        },
+        {
+          "id": "c",
+          "text": "Aciclovir intravenoso sistemático."
+        },
+        {
+          "id": "d",
+          "text": "Rifampicina en monoterapia."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La candidiasis oral leve puede tratarse con antifúngicos tópicos como nistatina. La extensión, la gravedad o la inmunodepresión pueden requerir tratamiento sistémico."
+    },
+    {
+      "id": "q66",
+      "specialty": "Hematología",
+      "statement": "Una mujer presenta cansancio, hemoglobina de 8,5 g/dl, VCM de 70 fl y ferritina baja. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anemia megaloblástica."
+        },
+        {
+          "id": "b",
+          "text": "Anemia hemolítica autoinmune."
+        },
+        {
+          "id": "c",
+          "text": "Anemia aplásica."
+        },
+        {
+          "id": "d",
+          "text": "Anemia ferropénica."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La anemia microcítica con ferritina baja es característica de ferropenia. Además de reponer hierro, debe estudiarse su causa."
+    },
+    {
+      "id": "q67",
+      "specialty": "Hematología",
+      "statement": "¿Qué alteración es característica de la anemia por déficit de vitamina B12?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microcitosis aislada."
+        },
+        {
+          "id": "b",
+          "text": "Macrocitosis y posible afectación neurológica."
+        },
+        {
+          "id": "c",
+          "text": "Aumento de ferritina en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Policitemia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El déficit de vitamina B12 puede causar anemia megaloblástica y alteraciones neurológicas. La afectación neurológica puede aparecer incluso sin anemia evidente."
+    },
+    {
+      "id": "q68",
+      "specialty": "Hematología",
+      "statement": "Un paciente presenta leucocitosis, esplenomegalia y cromosoma Filadelfia positivo. ¿Qué enfermedad es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leucemia linfoblástica aguda en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Linfoma de Hodgkin."
+        },
+        {
+          "id": "c",
+          "text": "Leucemia mieloide crónica."
+        },
+        {
+          "id": "d",
+          "text": "Anemia ferropénica."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El cromosoma Filadelfia y la fusión BCR::ABL1 son característicos de la leucemia mieloide crónica, en el contexto de leucocitosis y esplenomegalia."
+    },
+    {
+      "id": "q69",
+      "specialty": "Hematología",
+      "statement": "¿Cuál es el hallazgo característico del mieloma múltiple?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proliferación de células plasmáticas, componente monoclonal y posibles lesiones óseas."
+        },
+        {
+          "id": "b",
+          "text": "Déficit aislado de vitamina B12."
+        },
+        {
+          "id": "c",
+          "text": "Disminución de las inmunoglobulinas en todos los pacientes sin componente monoclonal."
+        },
+        {
+          "id": "d",
+          "text": "Trombocitosis reactiva como único criterio."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El mieloma es una neoplasia de células plasmáticas que habitualmente produce un componente monoclonal y puede ocasionar lesiones óseas, anemia, hipercalcemia y daño renal."
+    },
+    {
+      "id": "q70",
+      "specialty": "Hematología",
+      "statement": "Un paciente presenta trombocitopenia, anemia hemolítica y esquistocitos. Se sospecha púrpura trombótica trombocitopénica. ¿Cuál es la conducta correcta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esperar varios días a que se normalicen las plaquetas espontáneamente."
+        },
+        {
+          "id": "b",
+          "text": "Administrar hierro oral como único tratamiento."
+        },
+        {
+          "id": "c",
+          "text": "Indicar únicamente transfusión de plaquetas de rutina."
+        },
+        {
+          "id": "d",
+          "text": "Iniciar tratamiento urgente especializado, habitualmente con recambio plasmático y otras medidas."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La sospecha de púrpura trombótica trombocitopénica constituye una urgencia hematológica. El tratamiento especializado no debe demorarse a la espera de todas las pruebas confirmatorias."
+    },
+    {
+      "id": "q71",
+      "specialty": "Hematología",
+      "statement": "¿Qué alteración se asocia típicamente a la hemofilia A?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Déficit de factor VII."
+        },
+        {
+          "id": "b",
+          "text": "Déficit de factor VIII."
+        },
+        {
+          "id": "c",
+          "text": "Déficit de vitamina B12."
+        },
+        {
+          "id": "d",
+          "text": "Déficit de factor XIII en todos los casos."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La hemofilia A se debe al déficit de factor VIII. La hemofilia B corresponde al déficit de factor IX."
+    },
+    {
+      "id": "q72",
+      "specialty": "Hematología",
+      "statement": "¿Qué hallazgo orienta a una leucemia aguda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hemoglobina elevada de forma aislada."
+        },
+        {
+          "id": "b",
+          "text": "Hipercalcemia como único hallazgo."
+        },
+        {
+          "id": "c",
+          "text": "Presencia de blastos en sangre o médula ósea."
+        },
+        {
+          "id": "d",
+          "text": "Eosinofilia leve aislada."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La proliferación de blastos en médula ósea y/o sangre periférica orienta a leucemia aguda y requiere caracterización hematológica especializada."
+    },
+    {
+      "id": "q73",
+      "specialty": "Hematología",
+      "statement": "¿Cuál es una complicación frecuente de la drepanocitosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Crisis vasooclusivas dolorosas."
+        },
+        {
+          "id": "b",
+          "text": "Hipertiroidismo obligatorio."
+        },
+        {
+          "id": "c",
+          "text": "Hemofilia adquirida en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Hipertensión intracraneal idiopática como única manifestación."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La deformación de los hematíes favorece la obstrucción microvascular y causa crisis vasooclusivas dolorosas, entre otras complicaciones de la drepanocitosis."
+    },
+    {
+      "id": "q74",
+      "specialty": "Hematología",
+      "statement": "Un paciente presenta adenopatías indoloras y biopsia con células de Reed-Sternberg. ¿Qué diagnóstico es probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leucemia mieloide crónica."
+        },
+        {
+          "id": "b",
+          "text": "Mieloma múltiple."
+        },
+        {
+          "id": "c",
+          "text": "Linfoma de Burkitt necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Linfoma de Hodgkin."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Las células de Reed-Sternberg, interpretadas con la morfología y la inmunohistoquímica del tejido, son características del linfoma de Hodgkin clásico."
+    },
+    {
+      "id": "q75",
+      "specialty": "Hematología",
+      "statement": "¿Qué parámetro se utiliza habitualmente para monitorizar el tratamiento con warfarina?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Troponina."
+        },
+        {
+          "id": "b",
+          "text": "Tiempo de protrombina expresado como INR."
+        },
+        {
+          "id": "c",
+          "text": "Hemoglobina glicosilada."
+        },
+        {
+          "id": "d",
+          "text": "Dímero D de forma exclusiva."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El INR estandariza el tiempo de protrombina y se utiliza para ajustar el efecto anticoagulante de la warfarina según la indicación clínica."
+    },
+    {
+      "id": "q76",
+      "specialty": "Reumatología",
+      "statement": "Una mujer presenta poliartritis simétrica de pequeñas articulaciones, rigidez matutina prolongada y anti-CCP positivos. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Artrosis."
+        },
+        {
+          "id": "b",
+          "text": "Gota."
+        },
+        {
+          "id": "c",
+          "text": "Artritis reumatoide."
+        },
+        {
+          "id": "d",
+          "text": "Fibromialgia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La poliartritis simétrica de pequeñas articulaciones con rigidez inflamatoria y anticuerpos anti-CCP orienta a artritis reumatoide."
+    },
+    {
+      "id": "q77",
+      "specialty": "Reumatología",
+      "statement": "Un hombre presenta monoartritis aguda de la primera articulación metatarsofalángica. El líquido sinovial muestra cristales en forma de aguja con birrefringencia negativa. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gota."
+        },
+        {
+          "id": "b",
+          "text": "Artritis séptica por definición."
+        },
+        {
+          "id": "c",
+          "text": "Artritis reumatoide."
+        },
+        {
+          "id": "d",
+          "text": "Lupus eritematoso sistémico."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Los cristales de urato monosódico son aciculares y tienen birrefringencia negativa. Su presencia apoya gota, aunque no excluye una infección articular concomitante."
+    },
+    {
+      "id": "q78",
+      "specialty": "Reumatología",
+      "statement": "¿Qué anticuerpo es especialmente específico del lupus eritematoso sistémico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anti-CCP."
+        },
+        {
+          "id": "b",
+          "text": "Anticuerpo antimúsculo liso."
+        },
+        {
+          "id": "c",
+          "text": "Anticuerpo anti-receptor de TSH."
+        },
+        {
+          "id": "d",
+          "text": "Anti-Sm."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Los anticuerpos anti-Sm son muy específicos del lupus eritematoso sistémico, aunque su sensibilidad es limitada."
+    },
+    {
+      "id": "q79",
+      "specialty": "Reumatología",
+      "statement": "Un paciente presenta dolor lumbar inflamatorio que mejora con el ejercicio y empeora con el reposo. ¿Qué enfermedad debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hernia inguinal."
+        },
+        {
+          "id": "b",
+          "text": "Espondiloartritis axial."
+        },
+        {
+          "id": "c",
+          "text": "Osteoporosis sin fractura."
+        },
+        {
+          "id": "d",
+          "text": "Neuropatía periférica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El dolor lumbar inflamatorio, que mejora con actividad y no con reposo, es característico de la espondiloartritis axial y debe valorarse con el resto de datos clínicos."
+    },
+    {
+      "id": "q80",
+      "specialty": "Reumatología",
+      "statement": "¿Qué hallazgo es típico de la polimialgia reumática?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debilidad muscular verdadera con CK muy elevada en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Artritis exclusivamente de las articulaciones interfalángicas distales."
+        },
+        {
+          "id": "c",
+          "text": "Dolor y rigidez en cinturas escapular y pélvica en mayores de 50 años."
+        },
+        {
+          "id": "d",
+          "text": "Parálisis flácida ascendente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La polimialgia reumática produce dolor y rigidez de cinturas en mayores de 50 años. La debilidad muscular objetiva con CK muy elevada sugiere otro diagnóstico."
+    },
+    {
+      "id": "q81",
+      "specialty": "Reumatología",
+      "statement": "Una mujer de 75 años presenta cefalea temporal nueva, claudicación mandibular y pérdida visual transitoria. ¿Cuál es la actuación adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sospechar arteritis de células gigantes e iniciar glucocorticoides urgentemente."
+        },
+        {
+          "id": "b",
+          "text": "Esperar varias semanas para realizar una biopsia sin tratamiento."
+        },
+        {
+          "id": "c",
+          "text": "Tratar únicamente con analgésicos."
+        },
+        {
+          "id": "d",
+          "text": "Descartar una causa vascular por la edad."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La sospecha de arteritis de células gigantes con síntomas visuales requiere tratamiento urgente para prevenir pérdida visual irreversible, sin esperar a completar la confirmación diagnóstica."
+    },
+    {
+      "id": "q82",
+      "specialty": "Reumatología",
+      "statement": "¿Cuál es una característica de la artrosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inflamación sistémica intensa en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Anticuerpos anti-Sm positivos de forma característica."
+        },
+        {
+          "id": "c",
+          "text": "Vasculitis necrosante como manifestación principal."
+        },
+        {
+          "id": "d",
+          "text": "Dolor mecánico que suele empeorar con el uso de la articulación."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El dolor de la artrosis suele tener un patrón mecánico: aumenta con el uso de la articulación y mejora con el reposo, aunque puede haber episodios inflamatorios locales."
+    },
+    {
+      "id": "q83",
+      "specialty": "Reumatología",
+      "statement": "Un paciente presenta fenómeno de Raynaud, esclerodactilia y anticuerpos anticentrómero. ¿Qué enfermedad debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Artritis séptica."
+        },
+        {
+          "id": "b",
+          "text": "Esclerosis sistémica."
+        },
+        {
+          "id": "c",
+          "text": "Osteomielitis."
+        },
+        {
+          "id": "d",
+          "text": "Polimiositis exclusivamente."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El fenómeno de Raynaud y la esclerodactilia con anticuerpos anticentrómero orientan a esclerosis sistémica, especialmente a su forma cutánea limitada."
+    },
+    {
+      "id": "q84",
+      "specialty": "Reumatología",
+      "statement": "¿Qué prueba es fundamental cuando se sospecha artritis séptica aguda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Radiografía de tórax."
+        },
+        {
+          "id": "b",
+          "text": "Densitometría ósea."
+        },
+        {
+          "id": "c",
+          "text": "Artrocentesis con análisis y cultivo del líquido sinovial."
+        },
+        {
+          "id": "d",
+          "text": "Electroencefalograma."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La artrocentesis permite analizar y cultivar el líquido sinovial. Es una prueba esencial ante una posible artritis séptica, cuyo tratamiento es urgente."
+    },
+    {
+      "id": "q85",
+      "specialty": "Reumatología",
+      "statement": "¿Cuál es una manifestación característica de la fibromialgia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dolor generalizado crónico acompañado de fatiga y alteraciones del sueño."
+        },
+        {
+          "id": "b",
+          "text": "Destrucción articular rápida en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Fiebre alta persistente como síntoma principal."
+        },
+        {
+          "id": "d",
+          "text": "Hematuria macroscópica obligatoria."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La fibromialgia cursa con dolor generalizado persistente, fatiga y sueño no reparador. No se caracteriza por destrucción articular ni por inflamación sistémica intensa."
+    },
+    {
+      "id": "q86",
+      "specialty": "Cirugía general",
+      "statement": "Un paciente presenta dolor que comienza en región periumbilical y después se localiza en la fosa ilíaca derecha, acompañado de náuseas. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pancreatitis aguda."
+        },
+        {
+          "id": "b",
+          "text": "Colecistitis."
+        },
+        {
+          "id": "c",
+          "text": "Diverticulitis sigmoidea típica."
+        },
+        {
+          "id": "d",
+          "text": "Apendicitis aguda."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La migración del dolor desde la región periumbilical hasta la fosa ilíaca derecha es una presentación clásica de apendicitis aguda."
+    },
+    {
+      "id": "q87",
+      "specialty": "Cirugía general",
+      "statement": "Un paciente presenta dolor intenso en hipocondrio derecho, fiebre y signo de Murphy positivo. ¿Qué diagnóstico es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apendicitis."
+        },
+        {
+          "id": "b",
+          "text": "Colecistitis aguda."
+        },
+        {
+          "id": "c",
+          "text": "Cistitis."
+        },
+        {
+          "id": "d",
+          "text": "Pancreatitis crónica obligatoriamente."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El dolor en hipocondrio derecho, la fiebre y el signo de Murphy positivo orientan a colecistitis aguda, que se estudia habitualmente con ecografía."
+    },
+    {
+      "id": "q88",
+      "specialty": "Cirugía general",
+      "statement": "¿Cuál es un signo típico de obstrucción intestinal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poliuria aislada."
+        },
+        {
+          "id": "b",
+          "text": "Bradicardia fisiológica sin otros síntomas."
+        },
+        {
+          "id": "c",
+          "text": "Dolor abdominal cólico, vómitos y distensión."
+        },
+        {
+          "id": "d",
+          "text": "Tos seca aislada."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La obstrucción intestinal suele causar dolor cólico, vómitos, distensión y alteración del tránsito; la presentación depende del nivel y del grado de obstrucción."
+    },
+    {
+      "id": "q89",
+      "specialty": "Cirugía general",
+      "statement": "Un paciente presenta dolor abdominal súbito e intenso, abdomen rígido y signos de irritación peritoneal. ¿Qué debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peritonitis por una posible perforación de víscera hueca, entre otras causas."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome del intestino irritable no complicado."
+        },
+        {
+          "id": "c",
+          "text": "Reflujo gastroesofágico leve."
+        },
+        {
+          "id": "d",
+          "text": "Estreñimiento funcional sin complicaciones."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La rigidez y los signos de irritación peritoneal indican un abdomen agudo. Una perforación de víscera hueca es una causa que debe descartarse urgentemente."
+    },
+    {
+      "id": "q90",
+      "specialty": "Cirugía general",
+      "statement": "¿Cuál es la complicación más temida de un aneurisma de aorta abdominal sintomático y roto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Otitis media."
+        },
+        {
+          "id": "b",
+          "text": "Hipotiroidismo."
+        },
+        {
+          "id": "c",
+          "text": "Anemia ferropénica crónica como única complicación."
+        },
+        {
+          "id": "d",
+          "text": "Hemorragia masiva y shock."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La rotura de un aneurisma de aorta abdominal puede producir hemorragia masiva y shock hemorrágico, con necesidad de tratamiento vascular urgente."
+    },
+    {
+      "id": "q91",
+      "specialty": "Cirugía general",
+      "statement": "Un paciente presenta una hernia inguinal dolorosa, irreductible y con vómitos. ¿Qué conducta es adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recomendar ejercicio intenso."
+        },
+        {
+          "id": "b",
+          "text": "Evaluación quirúrgica urgente por posible incarceración o estrangulación."
+        },
+        {
+          "id": "c",
+          "text": "Esperar seis meses sin valoración."
+        },
+        {
+          "id": "d",
+          "text": "Aplicar calor y dar el alta."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La irreductibilidad y los signos de obstrucción en una hernia dolorosa obligan a descartar incarceración y estrangulación mediante valoración quirúrgica urgente."
+    },
+    {
+      "id": "q92",
+      "specialty": "Cirugía general",
+      "statement": "¿Cuál es la localización típica del dolor en la diverticulitis aguda en poblaciones occidentales?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipocondrio derecho exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Región cervical."
+        },
+        {
+          "id": "c",
+          "text": "Fosa ilíaca izquierda."
+        },
+        {
+          "id": "d",
+          "text": "Epigastrio exclusivamente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La diverticulitis del colon sigmoide, frecuente en poblaciones occidentales, suele causar dolor en la fosa ilíaca izquierda."
+    },
+    {
+      "id": "q93",
+      "specialty": "Cirugía general",
+      "statement": "Un paciente presenta pérdida de peso, ictericia indolora y dilatación de la vía biliar. ¿Qué enfermedad debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cáncer de cabeza de páncreas."
+        },
+        {
+          "id": "b",
+          "text": "Apendicitis aguda."
+        },
+        {
+          "id": "c",
+          "text": "Síndrome de intestino irritable."
+        },
+        {
+          "id": "d",
+          "text": "Gastritis aguda."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Una lesión en la cabeza del páncreas puede obstruir la vía biliar y producir ictericia indolora con pérdida de peso. Debe investigarse una causa tumoral."
+    },
+    {
+      "id": "q94",
+      "specialty": "Cirugía general",
+      "statement": "¿Cuál es el tratamiento inicial más importante de una hemorragia digestiva con inestabilidad hemodinámica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colonoscopia electiva en varias semanas."
+        },
+        {
+          "id": "b",
+          "text": "Alimentación oral inmediata."
+        },
+        {
+          "id": "c",
+          "text": "Alta hospitalaria tras administrar un antiácido."
+        },
+        {
+          "id": "d",
+          "text": "Reanimación hemodinámica y control urgente de la hemorragia."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La prioridad es mantener la perfusión y estabilizar al paciente mientras se organiza el diagnóstico y el control urgente del sangrado."
+    },
+    {
+      "id": "q95",
+      "specialty": "Cirugía general",
+      "statement": "¿Qué hallazgo es característico de una isquemia aguda de una extremidad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prurito aislado."
+        },
+        {
+          "id": "b",
+          "text": "Dolor súbito, palidez, frialdad y disminución o ausencia de pulsos."
+        },
+        {
+          "id": "c",
+          "text": "Eritema facial sin dolor."
+        },
+        {
+          "id": "d",
+          "text": "Edema bilateral crónico como única manifestación."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El dolor súbito con palidez, frialdad y ausencia de pulsos sugiere isquemia arterial aguda. La valoración vascular urgente busca preservar la viabilidad de la extremidad."
+    },
+    {
+      "id": "q96",
+      "specialty": "Urgencias y medicina intensiva",
+      "statement": "Un paciente inconsciente no responde y no respira normalmente. No se detecta pulso con una comprobación rápida. ¿Cuál es la actuación inicial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esperar diez minutos."
+        },
+        {
+          "id": "b",
+          "text": "Administrar agua por vía oral."
+        },
+        {
+          "id": "c",
+          "text": "Iniciar reanimación cardiopulmonar y solicitar un desfibrilador."
+        },
+        {
+          "id": "d",
+          "text": "Trasladarlo en un vehículo particular sin iniciar maniobras."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El cuadro es compatible con parada cardiorrespiratoria. Se debe activar la respuesta de emergencias, iniciar RCP y disponer de desfibrilación lo antes posible."
+    },
+    {
+      "id": "q97",
+      "specialty": "Urgencias y medicina intensiva",
+      "statement": "Un paciente presenta anafilaxia con hipotensión, urticaria y broncoespasmo tras recibir un medicamento. ¿Cuál es el tratamiento de primera elección?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adrenalina intramuscular."
+        },
+        {
+          "id": "b",
+          "text": "Antihistamínico oral como único tratamiento."
+        },
+        {
+          "id": "c",
+          "text": "Paracetamol intravenoso."
+        },
+        {
+          "id": "d",
+          "text": "Antibióticos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La adrenalina intramuscular es el tratamiento inicial de elección de la anafilaxia. Los antihistamínicos no sustituyen el tratamiento de la afectación respiratoria o circulatoria."
+    },
+    {
+      "id": "q98",
+      "specialty": "Urgencias y medicina intensiva",
+      "statement": "Un paciente presenta dolor torácico súbito desgarrador irradiado a la espalda, con diferencia de pulsos entre ambos brazos. ¿Qué diagnóstico debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reflujo gastroesofágico."
+        },
+        {
+          "id": "b",
+          "text": "Costocondritis."
+        },
+        {
+          "id": "c",
+          "text": "Crisis de ansiedad como diagnóstico definitivo."
+        },
+        {
+          "id": "d",
+          "text": "Disección aórtica."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El dolor torácico brusco irradiado a la espalda con asimetría de pulsos hace sospechar un síndrome aórtico agudo, como una disección aórtica."
+    },
+    {
+      "id": "q99",
+      "specialty": "Urgencias y medicina intensiva",
+      "statement": "Un paciente diabético presenta confusión y glucemia capilar de 35 mg/dl. ¿Cuál es la prioridad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Administrar insulina."
+        },
+        {
+          "id": "b",
+          "text": "Corregir urgentemente la hipoglucemia con glucosa, por vía adecuada según su estado."
+        },
+        {
+          "id": "c",
+          "text": "Restringir líquidos durante 24 horas."
+        },
+        {
+          "id": "d",
+          "text": "Esperar a que la glucemia se normalice espontáneamente."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La hipoglucemia con alteración neurológica requiere corrección inmediata. La vía depende del nivel de conciencia y de la seguridad de la deglución; no debe darse glucosa oral si no puede tragar con seguridad."
+    },
+    {
+      "id": "q100",
+      "specialty": "Urgencias y medicina intensiva",
+      "statement": "Un paciente presenta fiebre alta, hipotensión, taquicardia y sospecha de shock séptico. ¿Qué medida es apropiada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retrasar el tratamiento hasta obtener todos los resultados microbiológicos."
+        },
+        {
+          "id": "b",
+          "text": "Administrar exclusivamente antitérmicos."
+        },
+        {
+          "id": "c",
+          "text": "Iniciar tratamiento precoz, antibióticos apropiados y reanimación con líquidos intravenosos según la situación clínica."
+        },
+        {
+          "id": "d",
+          "text": "Recomendar reposo domiciliario."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La sospecha de shock séptico exige tratamiento precoz, antibióticos y soporte hemodinámico individualizado, con reevaluación de la respuesta y control del foco."
+    },
+    {
+      "id": "q101",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una mujer de 28 años presenta amenorrea de siete semanas, dolor abdominal y sangrado vaginal. La prueba de embarazo es positiva y la ecografía no identifica gestación intrauterina. ¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diagnosticar inmediatamente un aborto completo."
+        },
+        {
+          "id": "b",
+          "text": "Descartar el embarazo ectópico mediante evaluación clínica, ecográfica y analítica."
+        },
+        {
+          "id": "c",
+          "text": "Administrar anticonceptivos orales."
+        },
+        {
+          "id": "d",
+          "text": "Dar el alta sin seguimiento."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Una gestación de localización desconocida con dolor y sangrado obliga a descartar embarazo ectópico. La evaluación depende de la estabilidad, la ecografía y la evolución de la beta-hCG."
+    },
+    {
+      "id": "q102",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "¿Cuál es la causa más frecuente de hemorragia durante el primer trimestre del embarazo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Placenta previa."
+        },
+        {
+          "id": "b",
+          "text": "Rotura uterina."
+        },
+        {
+          "id": "c",
+          "text": "Desprendimiento prematuro de placenta."
+        },
+        {
+          "id": "d",
+          "text": "Aborto espontáneo."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Entre las opciones, el aborto espontáneo corresponde a una causa habitual de sangrado del primer trimestre. Un sangrado no demuestra por sí solo una pérdida gestacional y requiere valoración."
+    },
+    {
+      "id": "q103",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una embarazada de 34 semanas presenta hipertensión arterial y proteinuria, acompañadas de cefalea intensa y alteraciones visuales. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preeclampsia con signos de gravedad."
+        },
+        {
+          "id": "b",
+          "text": "Hipertensión crónica no complicada necesariamente."
+        },
+        {
+          "id": "c",
+          "text": "Diabetes gestacional."
+        },
+        {
+          "id": "d",
+          "text": "Hiperémesis gravídica."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La hipertensión y la proteinuria con síntomas neurológicos en esta edad gestacional orientan a preeclampsia con signos de gravedad y requieren valoración obstétrica urgente."
+    },
+    {
+      "id": "q104",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "¿Qué medicamento se utiliza para prevenir y tratar las convulsiones en la eclampsia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diazepam oral como tratamiento habitual de elección."
+        },
+        {
+          "id": "b",
+          "text": "Fenitoína en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Sulfato de magnesio."
+        },
+        {
+          "id": "d",
+          "text": "Haloperidol."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El sulfato de magnesio es el fármaco de referencia para tratar las convulsiones eclámpticas y prevenirlas cuando está indicado en preeclampsia."
+    },
+    {
+      "id": "q105",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una mujer presenta sangrado vaginal indoloro en el tercer trimestre. ¿Qué diagnóstico debe considerarse especialmente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Embarazo ectópico."
+        },
+        {
+          "id": "b",
+          "text": "Placenta previa."
+        },
+        {
+          "id": "c",
+          "text": "Endometriosis."
+        },
+        {
+          "id": "d",
+          "text": "Enfermedad inflamatoria pélvica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La placenta previa es una causa clásica de hemorragia indolora del tercer trimestre. Debe establecerse la localización placentaria antes de realizar un tacto vaginal digital."
+    },
+    {
+      "id": "q106",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "¿Qué infección por virus del papiloma humano se relaciona principalmente con el cáncer de cuello uterino?",
+      "options": [
+        {
+          "id": "a",
+          "text": "VPH 6 y 11 exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "VPH 1 y 2."
+        },
+        {
+          "id": "c",
+          "text": "VPH 40 y 43."
+        },
+        {
+          "id": "d",
+          "text": "VPH 16 y 18."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Los genotipos VPH 16 y 18 son de alto riesgo oncogénico y explican una proporción importante de cánceres de cuello uterino. No son los únicos genotipos de alto riesgo."
+    },
+    {
+      "id": "q107",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una mujer presenta dolor pélvico, fiebre y dolor a la movilización cervical. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enfermedad inflamatoria pélvica."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome de intestino irritable."
+        },
+        {
+          "id": "c",
+          "text": "Cistitis intersticial necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Mioma uterino asintomático."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El dolor pélvico y a la movilización cervical, con fiebre, orientan a enfermedad inflamatoria pélvica. Se deben considerar embarazo ectópico y otras causas de abdomen agudo."
+    },
+    {
+      "id": "q108",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "¿Cuál es la causa más frecuente de amenorrea secundaria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cáncer de ovario."
+        },
+        {
+          "id": "b",
+          "text": "Insuficiencia renal aguda."
+        },
+        {
+          "id": "c",
+          "text": "Embarazo."
+        },
+        {
+          "id": "d",
+          "text": "Hipertiroidismo en todos los casos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "En una persona en edad fértil, la primera causa que debe descartarse ante amenorrea secundaria es el embarazo."
+    },
+    {
+      "id": "q109",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una mujer de 59 años presenta sangrado vaginal después de la menopausia. ¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Considerarlo normal si es escaso."
+        },
+        {
+          "id": "b",
+          "text": "Evaluar el endometrio para descartar patología, incluido cáncer."
+        },
+        {
+          "id": "c",
+          "text": "Prescribir anticonceptivos sin investigar la causa."
+        },
+        {
+          "id": "d",
+          "text": "Esperar un año para comprobar si reaparece."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El sangrado posmenopáusico requiere estudio para descartar patología endometrial, incluido cáncer, aunque existan causas benignas frecuentes."
+    },
+    {
+      "id": "q110",
+      "specialty": "Ginecología y obstetricia",
+      "statement": "Una embarazada de 30 semanas presenta contracciones regulares y cambios cervicales compatibles con parto prematuro. ¿Qué medida puede estar indicada según su situación clínica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inducir siempre el parto inmediatamente."
+        },
+        {
+          "id": "b",
+          "text": "Administrar anticoagulantes a dosis plenas a todas las pacientes."
+        },
+        {
+          "id": "c",
+          "text": "Indicar reposo absoluto prolongado como único tratamiento."
+        },
+        {
+          "id": "d",
+          "text": "Administrar corticoides antenatales para favorecer la maduración pulmonar fetal."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ante riesgo de parto prematuro a esta edad gestacional pueden indicarse corticoides antenatales para reducir complicaciones neonatales, dentro de un manejo obstétrico individualizado."
+    },
+    {
+      "id": "q111",
+      "specialty": "Pediatría",
+      "statement": "Un lactante de dos meses presenta fiebre de 38,5 °C sin foco evidente. ¿Cuál es la conducta adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Valoración médica urgente con evaluación del riesgo de infección bacteriana grave."
+        },
+        {
+          "id": "b",
+          "text": "Administrar antitérmicos y esperar varios días en casa sin consultar."
+        },
+        {
+          "id": "c",
+          "text": "Diagnosticar una infección vírica sin explorarlo."
+        },
+        {
+          "id": "d",
+          "text": "Administrar antibióticos sobrantes en el domicilio."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La fiebre en un lactante pequeño requiere evaluación urgente del riesgo de infección bacteriana grave, aunque no exista un foco aparente."
+    },
+    {
+      "id": "q112",
+      "specialty": "Pediatría",
+      "statement": "¿Cuál es el agente etiológico más frecuente de la bronquiolitis en lactantes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virus de Epstein-Barr."
+        },
+        {
+          "id": "b",
+          "text": "Virus de la hepatitis A."
+        },
+        {
+          "id": "c",
+          "text": "Virus respiratorio sincitial."
+        },
+        {
+          "id": "d",
+          "text": "Virus de la inmunodeficiencia humana."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El virus respiratorio sincitial es el agente clásico más frecuente de bronquiolitis en lactantes, aunque otros virus también pueden causarla."
+    },
+    {
+      "id": "q113",
+      "specialty": "Pediatría",
+      "statement": "Un niño presenta tos perruna, disfonía y estridor inspiratorio. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bronquiolitis."
+        },
+        {
+          "id": "b",
+          "text": "Laringotraqueítis aguda o crup."
+        },
+        {
+          "id": "c",
+          "text": "Fibrosis quística."
+        },
+        {
+          "id": "d",
+          "text": "Neumonía lobar en todos los casos."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La tos perruna, la disfonía y el estridor inspiratorio son típicos del crup, que afecta a la vía aérea superior."
+    },
+    {
+      "id": "q114",
+      "specialty": "Pediatría",
+      "statement": "¿Cuál es una característica de la enfermedad de Kawasaki?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Únicamente diarrea acuosa."
+        },
+        {
+          "id": "b",
+          "text": "Hipoglucemia persistente como manifestación principal."
+        },
+        {
+          "id": "c",
+          "text": "Ausencia de fiebre."
+        },
+        {
+          "id": "d",
+          "text": "Fiebre prolongada con conjuntivitis bilateral y cambios mucocutáneos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La enfermedad de Kawasaki cursa con fiebre persistente y hallazgos como conjuntivitis bilateral no purulenta y cambios mucocutáneos. Su reconocimiento busca prevenir complicaciones coronarias."
+    },
+    {
+      "id": "q115",
+      "specialty": "Pediatría",
+      "statement": "Un niño presenta edema palpebral, orina oscura e hipertensión dos semanas después de una infección faríngea. ¿Qué diagnóstico debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glomerulonefritis postestreptocócica."
+        },
+        {
+          "id": "b",
+          "text": "Diabetes insípida."
+        },
+        {
+          "id": "c",
+          "text": "Síndrome de intestino irritable."
+        },
+        {
+          "id": "d",
+          "text": "Apendicitis aguda."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La aparición de un síndrome nefrítico tras una infección faríngea es sugestiva de glomerulonefritis postestreptocócica."
+    },
+    {
+      "id": "q116",
+      "specialty": "Pediatría",
+      "statement": "¿Cuál es la causa más frecuente de convulsiones febriles simples en niños pequeños?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tumor cerebral en la mayoría de los casos."
+        },
+        {
+          "id": "b",
+          "text": "Epilepsia refractaria en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Fiebre asociada a una infección, sin infección del sistema nervioso central ni otra causa identificable."
+        },
+        {
+          "id": "d",
+          "text": "Hipertensión arterial esencial."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Las convulsiones febriles aparecen asociadas a fiebre sin infección del sistema nervioso central ni otra causa aguda que las explique. Para considerarlas simples deben cumplir además criterios de duración, generalización y no repetición."
+    },
+    {
+      "id": "q117",
+      "specialty": "Pediatría",
+      "statement": "Un recién nacido presenta vómitos biliosos y distensión abdominal. ¿Qué debe hacerse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Considerarlo una regurgitación fisiológica."
+        },
+        {
+          "id": "b",
+          "text": "Realizar una valoración urgente para descartar obstrucción intestinal."
+        },
+        {
+          "id": "c",
+          "text": "Administrar laxantes sin exploración."
+        },
+        {
+          "id": "d",
+          "text": "Esperar una semana."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Los vómitos biliosos en un recién nacido son un signo de alarma de obstrucción intestinal, incluida malrotación con vólvulo, y requieren evaluación urgente."
+    },
+    {
+      "id": "q118",
+      "specialty": "Pediatría",
+      "statement": "¿Qué hallazgo es característico de la estenosis hipertrófica del píloro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diarrea sanguinolenta como síntoma principal."
+        },
+        {
+          "id": "b",
+          "text": "Vómitos biliosos desde el nacimiento en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Hipertensión arterial."
+        },
+        {
+          "id": "d",
+          "text": "Vómitos no biliosos en proyectil durante las primeras semanas de vida."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La obstrucción pilórica produce vómitos progresivos no biliosos, a menudo en proyectil, durante las primeras semanas de vida."
+    },
+    {
+      "id": "q119",
+      "specialty": "Pediatría",
+      "statement": "Un niño presenta púrpura palpable en las piernas, dolor abdominal y artralgias después de una infección respiratoria. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vasculitis por IgA."
+        },
+        {
+          "id": "b",
+          "text": "Hemofilia A."
+        },
+        {
+          "id": "c",
+          "text": "Enfermedad de Kawasaki necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Escarlatina sin complicaciones."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La púrpura palpable de predominio en miembros inferiores con dolor abdominal y artralgias es típica de vasculitis por IgA. Debe evaluarse también la afectación renal."
+    },
+    {
+      "id": "q120",
+      "specialty": "Pediatría",
+      "statement": "¿Cuál es la medida más importante para prevenir infecciones graves por microorganismos incluidos en el calendario vacunal infantil?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Administrar antibióticos preventivos durante toda la infancia."
+        },
+        {
+          "id": "b",
+          "text": "Evitar toda actividad física."
+        },
+        {
+          "id": "c",
+          "text": "Mantener al día las vacunaciones recomendadas."
+        },
+        {
+          "id": "d",
+          "text": "Realizar radiografías mensuales."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mantener las vacunaciones recomendadas protege frente a enfermedades prevenibles y sus complicaciones. Las pautas concretas se consultan en el calendario aplicable."
+    },
+    {
+      "id": "q121",
+      "specialty": "Psiquiatría",
+      "statement": "Un paciente presenta ánimo deprimido, anhedonia, alteraciones del sueño y sentimientos de inutilidad durante cinco semanas. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Episodio maníaco."
+        },
+        {
+          "id": "b",
+          "text": "Episodio depresivo mayor."
+        },
+        {
+          "id": "c",
+          "text": "Delirium necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Trastorno de pánico exclusivamente."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El cuadro orienta a un episodio depresivo mayor. El enunciado está resumido: la confirmación exige comprobar todos los criterios, la repercusión funcional y las posibles causas alternativas."
+    },
+    {
+      "id": "q122",
+      "specialty": "Psiquiatría",
+      "statement": "¿Qué característica distingue un episodio maníaco de la hipomanía?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La ausencia de cambios en el estado de ánimo."
+        },
+        {
+          "id": "b",
+          "text": "La presencia obligatoria de alucinaciones visuales."
+        },
+        {
+          "id": "c",
+          "text": "La duración de unas pocas horas en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "La intensidad y repercusión funcional, que puede incluir deterioro grave, hospitalización o síntomas psicóticos."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La manía produce una repercusión funcional marcada y puede requerir hospitalización o incluir psicosis. La hipomanía no causa ese grado de deterioro ni síntomas psicóticos."
+    },
+    {
+      "id": "q123",
+      "specialty": "Psiquiatría",
+      "statement": "Un paciente presenta alucinaciones auditivas, delirios y deterioro funcional persistente durante varios meses. ¿Qué trastorno debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esquizofrenia, tras una evaluación diagnóstica completa."
+        },
+        {
+          "id": "b",
+          "text": "Trastorno de adaptación necesariamente."
+        },
+        {
+          "id": "c",
+          "text": "Fobia específica."
+        },
+        {
+          "id": "d",
+          "text": "Trastorno de insomnio aislado."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Los síntomas psicóticos persistentes con deterioro funcional hacen considerar esquizofrenia. La duración exacta, los trastornos afectivos, las sustancias y las causas médicas deben evaluarse antes de confirmar el diagnóstico."
+    },
+    {
+      "id": "q124",
+      "specialty": "Psiquiatría",
+      "statement": "¿Cuál es el tratamiento de primera línea habitual para un trastorno de pánico a medio plazo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antibióticos."
+        },
+        {
+          "id": "b",
+          "text": "Corticoides sistémicos."
+        },
+        {
+          "id": "c",
+          "text": "Terapia cognitivo-conductual y, cuando procede, un ISRS."
+        },
+        {
+          "id": "d",
+          "text": "Anticoagulación."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La terapia cognitivo-conductual y los ISRS son opciones habituales para el manejo del trastorno de pánico, seleccionadas según gravedad, preferencias y situación clínica."
+    },
+    {
+      "id": "q125",
+      "specialty": "Psiquiatría",
+      "statement": "Un paciente con consumo crónico de alcohol presenta temblor, sudoración y taquicardia tras suspenderlo bruscamente. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome neuroléptico maligno necesariamente."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome de abstinencia alcohólica."
+        },
+        {
+          "id": "c",
+          "text": "Intoxicación por opioides."
+        },
+        {
+          "id": "d",
+          "text": "Demencia frontotemporal."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Los síntomas autonómicos tras la reducción brusca del consumo crónico de alcohol orientan a abstinencia alcohólica, que puede progresar a convulsiones o delirium tremens."
+    },
+    {
+      "id": "q126",
+      "specialty": "Psiquiatría",
+      "statement": "¿Qué medida es prioritaria ante un paciente con riesgo suicida inmediato y un plan concreto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dejarlo solo para que reflexione."
+        },
+        {
+          "id": "b",
+          "text": "Recomendarle que vuelva en seis meses."
+        },
+        {
+          "id": "c",
+          "text": "Limitarse a entregarle información escrita."
+        },
+        {
+          "id": "d",
+          "text": "Garantizar su seguridad y realizar una evaluación urgente, con el nivel de atención necesario."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El riesgo suicida inmediato exige asegurar la protección de la persona y una evaluación urgente, con supervisión y atención adecuadas al riesgo."
+    },
+    {
+      "id": "q127",
+      "specialty": "Psiquiatría",
+      "statement": "Una persona presenta obsesiones recurrentes y realiza rituales repetitivos para reducir la ansiedad. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trastorno obsesivo-compulsivo."
+        },
+        {
+          "id": "b",
+          "text": "Trastorno de conversión necesariamente."
+        },
+        {
+          "id": "c",
+          "text": "Trastorno de personalidad antisocial."
+        },
+        {
+          "id": "d",
+          "text": "Trastorno bipolar tipo I."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Las obsesiones son pensamientos intrusivos recurrentes; las compulsiones son conductas o actos mentales dirigidos a reducir el malestar. La combinación orienta a trastorno obsesivo-compulsivo."
+    },
+    {
+      "id": "q128",
+      "specialty": "Psiquiatría",
+      "statement": "¿Cuál es una manifestación típica del delirium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deterioro cognitivo estable durante décadas sin fluctuaciones."
+        },
+        {
+          "id": "b",
+          "text": "Alteración exclusiva de la memoria remota."
+        },
+        {
+          "id": "c",
+          "text": "Inicio agudo, alteración de la atención y curso fluctuante."
+        },
+        {
+          "id": "d",
+          "text": "Ausencia constante de alteración de la conciencia."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El delirium se caracteriza por aparición aguda y curso fluctuante con alteración de la atención y de la conciencia del entorno, habitualmente por una causa médica o tóxica."
+    },
+    {
+      "id": "q129",
+      "specialty": "Psiquiatría",
+      "statement": "¿Qué tratamiento psicológico tiene una eficacia demostrada en la bulimia nerviosa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipnosis como tratamiento único obligatorio."
+        },
+        {
+          "id": "b",
+          "text": "Terapia cognitivo-conductual."
+        },
+        {
+          "id": "c",
+          "text": "Aislamiento social prolongado."
+        },
+        {
+          "id": "d",
+          "text": "Restricción alimentaria extrema supervisada como único tratamiento."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La terapia cognitivo-conductual adaptada a los trastornos alimentarios es una intervención eficaz en la bulimia nerviosa, dentro de una atención que incluya el estado médico y nutricional."
+    },
+    {
+      "id": "q130",
+      "specialty": "Psiquiatría",
+      "statement": "Un paciente presenta disminución de la necesidad de dormir, verborrea, grandiosidad y aumento marcado de la actividad durante varios días, con deterioro importante. ¿Qué diagnóstico debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trastorno de ansiedad generalizada exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Fobia social."
+        },
+        {
+          "id": "c",
+          "text": "Episodio depresivo."
+        },
+        {
+          "id": "d",
+          "text": "Episodio maníaco."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El aumento de actividad, la grandiosidad y la disminución de la necesidad de sueño con deterioro marcado hacen considerar manía. Deben comprobarse los criterios de duración y excluir sustancias u otras causas."
+    },
+    {
+      "id": "q131",
+      "specialty": "Dermatología",
+      "statement": "Un paciente presenta placas eritematosas bien delimitadas con escamas blanquecinas en codos y rodillas. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psoriasis."
+        },
+        {
+          "id": "b",
+          "text": "Urticaria aguda."
+        },
+        {
+          "id": "c",
+          "text": "Celulitis bacteriana."
+        },
+        {
+          "id": "d",
+          "text": "Herpes zóster."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Las placas eritematoescamosas bien delimitadas en superficies extensoras, como codos y rodillas, son típicas de psoriasis en placas."
+    },
+    {
+      "id": "q132",
+      "specialty": "Dermatología",
+      "statement": "¿Cuál es la lesión cutánea característica de la urticaria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Úlcera profunda persistente."
+        },
+        {
+          "id": "b",
+          "text": "Nódulo subcutáneo fijo."
+        },
+        {
+          "id": "c",
+          "text": "Habones pruriginosos y transitorios."
+        },
+        {
+          "id": "d",
+          "text": "Vesículas agrupadas siempre en un dermatoma."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La lesión elemental es el habón: una elevación pruriginosa y transitoria. Cada lesión suele desaparecer en menos de 24 horas sin dejar lesión residual."
+    },
+    {
+      "id": "q133",
+      "specialty": "Dermatología",
+      "statement": "Un paciente presenta vesículas dolorosas agrupadas en una distribución unilateral siguiendo un dermatoma. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dermatitis seborreica."
+        },
+        {
+          "id": "b",
+          "text": "Herpes zóster."
+        },
+        {
+          "id": "c",
+          "text": "Psoriasis en placas."
+        },
+        {
+          "id": "d",
+          "text": "Vitíligo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La reactivación del virus varicela-zóster produce vesículas dolorosas en una distribución dermatomérica, habitualmente unilateral."
+    },
+    {
+      "id": "q134",
+      "specialty": "Dermatología",
+      "statement": "¿Qué característica de una lesión pigmentada aumenta la sospecha de melanoma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simetría perfecta y color uniforme en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Presencia desde el nacimiento sin cambios ni otros signos."
+        },
+        {
+          "id": "c",
+          "text": "Tamaño pequeño como único dato."
+        },
+        {
+          "id": "d",
+          "text": "Asimetría, bordes irregulares y variación de color."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La asimetría, los bordes irregulares y los colores heterogéneos son signos de alarma de melanoma. La evolución de la lesión también es relevante."
+    },
+    {
+      "id": "q135",
+      "specialty": "Dermatología",
+      "statement": "¿Cuál es una característica típica de la dermatitis atópica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eccema pruriginoso recurrente asociado a alteración de la barrera cutánea."
+        },
+        {
+          "id": "b",
+          "text": "Necrosis cutánea generalizada en todos los casos."
+        },
+        {
+          "id": "c",
+          "text": "Únicamente lesiones en mucosas."
+        },
+        {
+          "id": "d",
+          "text": "Ausencia de prurito como regla general."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La dermatitis atópica es una enfermedad inflamatoria recurrente, con prurito y alteración de la barrera cutánea que favorece xerosis y eccema."
+    },
+    {
+      "id": "q136",
+      "specialty": "Dermatología",
+      "statement": "Un paciente presenta una placa anular con borde eritematoso descamativo y aclaramiento central. ¿Qué diagnóstico debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Melanoma nodular."
+        },
+        {
+          "id": "b",
+          "text": "Urticaria."
+        },
+        {
+          "id": "c",
+          "text": "Tiña corporal."
+        },
+        {
+          "id": "d",
+          "text": "Vitíligo."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El borde activo descamativo y el aclaramiento central son sugestivos de tiña corporal, una infección por dermatofitos."
+    },
+    {
+      "id": "q137",
+      "specialty": "Dermatología",
+      "statement": "¿Qué tumor cutáneo se relaciona especialmente con exposición solar acumulada y suele crecer lentamente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Melanoma metastásico en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Carcinoma basocelular."
+        },
+        {
+          "id": "c",
+          "text": "Sarcoma de Ewing."
+        },
+        {
+          "id": "d",
+          "text": "Linfoma de Hodgkin."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El carcinoma basocelular se asocia a radiación ultravioleta y suele tener crecimiento lento y comportamiento localmente invasivo."
+    },
+    {
+      "id": "q138",
+      "specialty": "Dermatología",
+      "statement": "Un paciente presenta eritema facial centrofacial, telangiectasias y episodios de rubor. ¿Cuál es el diagnóstico probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psoriasis ungueal."
+        },
+        {
+          "id": "b",
+          "text": "Escabiosis."
+        },
+        {
+          "id": "c",
+          "text": "Celulitis necrosante."
+        },
+        {
+          "id": "d",
+          "text": "Rosácea."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El eritema centrofacial persistente, las telangiectasias y los episodios de rubor son manifestaciones características de rosácea."
+    },
+    {
+      "id": "q139",
+      "specialty": "Dermatología",
+      "statement": "¿Cuál es el tratamiento habitual de primera línea para una escabiosis no complicada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permetrina tópica al 5 %, con tratamiento de contactos y medidas ambientales adecuadas."
+        },
+        {
+          "id": "b",
+          "text": "Corticoides sistémicos como único tratamiento."
+        },
+        {
+          "id": "c",
+          "text": "Antibióticos intravenosos en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Antifúngicos orales obligatorios."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La permetrina al 5 % es una opción habitual de primera línea. El tratamiento coordinado de contactos y las medidas sobre ropa y ropa de cama reducen reinfestaciones."
+    },
+    {
+      "id": "q140",
+      "specialty": "Dermatología",
+      "statement": "Un paciente presenta eritema extenso, dolor cutáneo, ampollas y afectación de mucosas tras iniciar un medicamento. ¿Qué complicación debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acné vulgar."
+        },
+        {
+          "id": "b",
+          "text": "Dermatitis seborreica leve."
+        },
+        {
+          "id": "c",
+          "text": "Reacción cutánea grave, como síndrome de Stevens-Johnson o necrólisis epidérmica tóxica."
+        },
+        {
+          "id": "d",
+          "text": "Urticaria crónica simple."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El dolor cutáneo, las ampollas y la afectación mucosa tras una exposición farmacológica sugieren una reacción cutánea grave y requieren valoración urgente y retirada del fármaco sospechoso."
+    },
+    {
+      "id": "q141",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta dolor ocular intenso, ojo rojo, visión borrosa y halos alrededor de las luces. ¿Qué diagnóstico debe descartarse urgentemente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conjuntivitis alérgica leve."
+        },
+        {
+          "id": "b",
+          "text": "Glaucoma agudo de ángulo cerrado."
+        },
+        {
+          "id": "c",
+          "text": "Miopía estable."
+        },
+        {
+          "id": "d",
+          "text": "Presbicia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El ojo rojo doloroso con visión borrosa y halos es compatible con un cierre angular agudo. La presión intraocular elevada puede comprometer la visión y requiere tratamiento urgente."
+    },
+    {
+      "id": "q142",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente describe destellos luminosos y aparición repentina de numerosas moscas volantes, seguidos de una sombra en el campo visual. ¿Qué debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Catarata senil."
+        },
+        {
+          "id": "b",
+          "text": "Conjuntivitis bacteriana."
+        },
+        {
+          "id": "c",
+          "text": "Presbicia."
+        },
+        {
+          "id": "d",
+          "text": "Desprendimiento de retina."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Las fotopsias y miodesopsias de aparición brusca, seguidas de una sombra o cortina visual, obligan a descartar un desgarro o desprendimiento de retina urgentemente."
+    },
+    {
+      "id": "q143",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "¿Cuál es una característica de la degeneración macular asociada a la edad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pérdida de visión central."
+        },
+        {
+          "id": "b",
+          "text": "Pérdida auditiva conductiva."
+        },
+        {
+          "id": "c",
+          "text": "Parálisis facial periférica."
+        },
+        {
+          "id": "d",
+          "text": "Dolor ocular intenso obligatorio."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La mácula permite la visión central de detalle. Su degeneración puede causar pérdida central o distorsión de las imágenes, habitualmente sin dolor."
+    },
+    {
+      "id": "q144",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta dolor intenso al mover el pabellón auricular y edema del conducto auditivo externo después de nadar. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Otitis media aguda."
+        },
+        {
+          "id": "b",
+          "text": "Otosclerosis."
+        },
+        {
+          "id": "c",
+          "text": "Otitis externa."
+        },
+        {
+          "id": "d",
+          "text": "Enfermedad de Ménière."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La exposición al agua, el edema del conducto y el dolor al movilizar el pabellón o presionar el trago son característicos de otitis externa."
+    },
+    {
+      "id": "q145",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta vértigo de segundos de duración desencadenado al girarse en la cama. ¿Qué diagnóstico es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neuritis óptica."
+        },
+        {
+          "id": "b",
+          "text": "Vértigo posicional paroxístico benigno."
+        },
+        {
+          "id": "c",
+          "text": "Accidente cerebrovascular en todos los casos."
+        },
+        {
+          "id": "d",
+          "text": "Hipoacusia conductiva aislada."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Los episodios breves de vértigo desencadenados por cambios de posición de la cabeza son típicos del vértigo posicional paroxístico benigno."
+    },
+    {
+      "id": "q146",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "¿Qué hallazgo es característico de la enfermedad de Ménière?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pérdida visual central progresiva."
+        },
+        {
+          "id": "b",
+          "text": "Otalgia con secreción purulenta como único síntoma."
+        },
+        {
+          "id": "c",
+          "text": "Parálisis facial bilateral obligatoria."
+        },
+        {
+          "id": "d",
+          "text": "Episodios de vértigo, acúfenos e hipoacusia fluctuante."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La enfermedad de Ménière combina episodios espontáneos de vértigo con síntomas auditivos, como hipoacusia fluctuante y acúfenos."
+    },
+    {
+      "id": "q147",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta pérdida súbita de audición unilateral desarrollada en pocas horas. ¿Cuál es la conducta adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Valoración otorrinolaringológica urgente."
+        },
+        {
+          "id": "b",
+          "text": "Esperar varios meses sin evaluación."
+        },
+        {
+          "id": "c",
+          "text": "Administrar gotas óticas en todos los casos sin exploración."
+        },
+        {
+          "id": "d",
+          "text": "Considerarlo un cambio normal del envejecimiento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La hipoacusia súbita puede corresponder a una urgencia neurosensorial. La valoración rápida permite distinguir causas y evitar retrasos terapéuticos."
+    },
+    {
+      "id": "q148",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "¿Cuál es la causa más frecuente de conjuntivitis aguda en niños?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glaucoma agudo."
+        },
+        {
+          "id": "b",
+          "text": "Desprendimiento de retina."
+        },
+        {
+          "id": "c",
+          "text": "Infección vírica."
+        },
+        {
+          "id": "d",
+          "text": "Degeneración macular."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "ANULADA. La plantilla aportada indica C, pero no puede sostenerse como respuesta universal en población pediátrica: hay evidencia de predominio bacteriano, opción ausente. Se conserva el texto original y no se puntúa ninguna opción. Referencia: Patel et al., Clinical features of bacterial conjunctivitis in children, PMID 17119185: https://pubmed.ncbi.nlm.nih.gov/17119185/.",
+      "voided": true
+    },
+    {
+      "id": "q149",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta fiebre, dolor facial unilateral y secreción nasal purulenta persistente durante más de diez días sin mejoría. ¿Qué diagnóstico debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rinitis alérgica exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Rinosinusitis bacteriana aguda."
+        },
+        {
+          "id": "c",
+          "text": "Otosclerosis."
+        },
+        {
+          "id": "d",
+          "text": "Catarata."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La persistencia de síntomas de rinosinusitis durante más de diez días sin mejoría hace considerar una etiología bacteriana, junto con la gravedad y la evolución clínica."
+    },
+    {
+      "id": "q150",
+      "specialty": "Oftalmología y otorrinolaringología",
+      "statement": "Un paciente presenta desviación de la comisura bucal, incapacidad para cerrar un ojo y debilidad de toda la hemicara del mismo lado, sin otros déficits neurológicos. ¿Qué diagnóstico debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neuralgia del trigémino."
+        },
+        {
+          "id": "b",
+          "text": "Enfermedad de Ménière."
+        },
+        {
+          "id": "c",
+          "text": "Miastenia ocular aislada."
+        },
+        {
+          "id": "d",
+          "text": "Parálisis facial periférica, como la parálisis de Bell, tras descartar causas urgentes."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La afectación de toda la hemicara orienta a parálisis facial periférica. La parálisis de Bell es un diagnóstico de exclusión; se deben valorar causas urgentes y la protección ocular."
+    },
+    {
+      "id": "q151",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "En un estudio se sigue durante diez años a un grupo de fumadores y no fumadores para comparar la incidencia de cáncer de pulmón. ¿Qué tipo de estudio es?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estudio transversal."
+        },
+        {
+          "id": "b",
+          "text": "Estudio de casos y controles."
+        },
+        {
+          "id": "c",
+          "text": "Estudio de cohortes."
+        },
+        {
+          "id": "d",
+          "text": "Ensayo clínico aleatorizado."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Se parte de la exposición y se sigue a los participantes para medir la aparición de enfermedad, lo que corresponde a un estudio de cohortes."
+    },
+    {
+      "id": "q152",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "¿Qué medida epidemiológica expresa la proporción de personas inicialmente sanas que desarrollan una enfermedad durante un periodo determinado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Incidencia acumulada."
+        },
+        {
+          "id": "b",
+          "text": "Prevalencia puntual."
+        },
+        {
+          "id": "c",
+          "text": "Mortalidad proporcional."
+        },
+        {
+          "id": "d",
+          "text": "Odds ratio exclusivamente."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La incidencia acumulada es la proporción de personas inicialmente en riesgo que desarrolla el evento durante un periodo definido."
+    },
+    {
+      "id": "q153",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "Una prueba diagnóstica tiene una sensibilidad del 95 %. ¿Qué significa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "El 95 % de los resultados positivos son verdaderos positivos."
+        },
+        {
+          "id": "b",
+          "text": "El 95 % de las personas sanas obtienen un resultado negativo."
+        },
+        {
+          "id": "c",
+          "text": "La enfermedad está presente en el 95 % de la población."
+        },
+        {
+          "id": "d",
+          "text": "Detecta aproximadamente al 95 % de las personas que tienen la enfermedad."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La sensibilidad es la proporción de personas enfermas cuyo resultado es positivo: verdaderos positivos divididos entre verdaderos positivos más falsos negativos."
+    },
+    {
+      "id": "q154",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "Si aumenta la prevalencia de una enfermedad, manteniéndose constantes la sensibilidad y la especificidad de una prueba, ¿qué suele ocurrir con su valor predictivo positivo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disminuye necesariamente a cero."
+        },
+        {
+          "id": "b",
+          "text": "Aumenta."
+        },
+        {
+          "id": "c",
+          "text": "Permanece siempre idéntico."
+        },
+        {
+          "id": "d",
+          "text": "Se convierte en la sensibilidad."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Al aumentar la probabilidad previa de enfermedad, un resultado positivo tiene más probabilidad de ser un verdadero positivo si sensibilidad y especificidad se mantienen."
+    },
+    {
+      "id": "q155",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "¿Cuál es un ejemplo de prevención primaria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rehabilitación después de un ictus."
+        },
+        {
+          "id": "b",
+          "text": "Tratamiento de una complicación diabética."
+        },
+        {
+          "id": "c",
+          "text": "Vacunación frente a una enfermedad infecciosa."
+        },
+        {
+          "id": "d",
+          "text": "Cribado de cáncer en personas asintomáticas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La vacunación actúa antes de que aparezca la enfermedad y es prevención primaria. El cribado es prevención secundaria y la rehabilitación pertenece a la terciaria."
+    },
+    {
+      "id": "q156",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "¿Qué característica define un ensayo clínico aleatorizado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La asignación aleatoria de los participantes a los grupos de comparación."
+        },
+        {
+          "id": "b",
+          "text": "La ausencia obligatoria de grupo control."
+        },
+        {
+          "id": "c",
+          "text": "La selección exclusiva de pacientes con enfermedad avanzada."
+        },
+        {
+          "id": "d",
+          "text": "La imposibilidad de evaluar tratamientos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La aleatorización asigna los participantes a los grupos por un mecanismo de azar. Reduce el riesgo de desequilibrio sistemático de factores pronósticos, sin garantizar grupos idénticos."
+    },
+    {
+      "id": "q157",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "¿Qué medida de asociación se utiliza habitualmente en estudios de casos y controles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Incidencia acumulada directamente."
+        },
+        {
+          "id": "b",
+          "text": "Riesgo absoluto exclusivamente."
+        },
+        {
+          "id": "c",
+          "text": "Tasa de mortalidad infantil."
+        },
+        {
+          "id": "d",
+          "text": "Odds ratio."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La odds ratio compara las odds de exposición entre casos y controles. En este diseño no se estima directamente la incidencia a partir de la proporción de casos muestreados."
+    },
+    {
+      "id": "q158",
+      "specialty": "Medicina preventiva y salud pública",
+      "statement": "¿Qué es un factor de confusión en un estudio epidemiológico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Una variable que siempre demuestra causalidad."
+        },
+        {
+          "id": "b",
+          "text": "Una variable asociada tanto con la exposición como con el desenlace que puede distorsionar la asociación estudiada."
+        },
+        {
+          "id": "c",
+          "text": "Un resultado positivo de una prueba diagnóstica."
+        },
+        {
+          "id": "d",
+          "text": "Una variable que únicamente aparece después de la enfermedad."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un factor de confusión puede distorsionar la asociación entre exposición y desenlace. Además de estar relacionado con ambos, no debe ser un paso intermedio de la vía causal que se pretende estimar."
+    },
+    {
+      "id": "q159",
+      "specialty": "Farmacología",
+      "statement": "Un paciente tratado con warfarina presenta una hemorragia grave y un INR muy elevado. ¿Qué estrategia debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aumentar la dosis de warfarina."
+        },
+        {
+          "id": "b",
+          "text": "Administrar aspirina."
+        },
+        {
+          "id": "c",
+          "text": "Suspender la warfarina y revertir urgentemente la anticoagulación, habitualmente con complejo protrombínico y vitamina K intravenosa."
+        },
+        {
+          "id": "d",
+          "text": "Esperar varios días sin tratamiento."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La hemorragia grave asociada a warfarina requiere suspenderla y una reversión urgente. El complejo protrombínico aporta factores rápidamente y la vitamina K mantiene la reversión, según el protocolo clínico."
+    },
+    {
+      "id": "q160",
+      "specialty": "Farmacología",
+      "statement": "¿Cuál es un efecto adverso característico de los inhibidores de la enzima convertidora de angiotensina (IECA)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tos seca y, ocasionalmente, angioedema."
+        },
+        {
+          "id": "b",
+          "text": "Hipoglucemia grave en todos los pacientes."
+        },
+        {
+          "id": "c",
+          "text": "Ototoxicidad irreversible como efecto habitual."
+        },
+        {
+          "id": "d",
+          "text": "Hipertiroidismo."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Los IECA pueden producir tos seca y angioedema por acumulación de mediadores como la bradicinina. También requieren vigilancia de función renal y potasio."
+    },
+    {
+      "id": "q161",
+      "specialty": "Farmacología",
+      "statement": "Un paciente desarrolla mialgias intensas y orina oscura después de iniciar una estatina. ¿Qué complicación debe descartarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipotiroidismo central exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome nefrótico primario."
+        },
+        {
+          "id": "c",
+          "text": "Anemia perniciosa."
+        },
+        {
+          "id": "d",
+          "text": "Rabdomiólisis."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La lesión muscular intensa con mioglobinuria puede causar orina oscura y daño renal. Debe descartarse rabdomiólisis, valorando CK y función renal."
+    },
+    {
+      "id": "q162",
+      "specialty": "Farmacología",
+      "statement": "¿Cuál es el antídoto específico de la intoxicación por opioides con depresión respiratoria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flumazenilo."
+        },
+        {
+          "id": "b",
+          "text": "Naloxona."
+        },
+        {
+          "id": "c",
+          "text": "Atropina."
+        },
+        {
+          "id": "d",
+          "text": "Vitamina K."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La naloxona antagoniza los receptores opioides y revierte la depresión respiratoria. El soporte ventilatorio y la vigilancia de recurrencia siguen siendo esenciales."
+    },
+    {
+      "id": "q163",
+      "specialty": "Farmacología",
+      "statement": "¿Qué efecto adverso importante se asocia a los aminoglucósidos?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiperglucemia obligatoria."
+        },
+        {
+          "id": "b",
+          "text": "Hipotiroidismo permanente como efecto habitual."
+        },
+        {
+          "id": "c",
+          "text": "Nefrotoxicidad y ototoxicidad."
+        },
+        {
+          "id": "d",
+          "text": "Déficit de vitamina B12 en todos los pacientes."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Los aminoglucósidos pueden causar nefrotoxicidad y lesión coclear o vestibular. Su uso requiere ajustar la pauta y vigilar los factores de riesgo."
+    },
+    {
+      "id": "q164",
+      "specialty": "Farmacología",
+      "statement": "Un paciente tratado con litio presenta temblor intenso, ataxia, vómitos y confusión. ¿Qué debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toxicidad por litio."
+        },
+        {
+          "id": "b",
+          "text": "Hipoglucemia como única posibilidad."
+        },
+        {
+          "id": "c",
+          "text": "Síndrome de abstinencia alcohólica necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Reacción alérgica leve."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Los síntomas neurológicos y digestivos en un paciente que toma litio sugieren toxicidad. Se requiere valoración urgente de litemia, función renal, electrolitos y posibles interacciones."
+    },
+    {
+      "id": "q165",
+      "specialty": "Farmacología",
+      "statement": "¿Cuál es una contraindicación importante para el uso de isotretinoína sistémica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miopía leve."
+        },
+        {
+          "id": "b",
+          "text": "Rinitis estacional."
+        },
+        {
+          "id": "c",
+          "text": "Intolerancia a la lactosa."
+        },
+        {
+          "id": "d",
+          "text": "Embarazo, por su elevada teratogenicidad."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La isotretinoína sistémica es altamente teratógena y está contraindicada durante el embarazo. Su prescripción exige medidas de prevención del embarazo según el programa aplicable."
+    },
+    {
+      "id": "q166",
+      "specialty": "Farmacología",
+      "statement": "Un paciente que recibe un antipsicótico desarrolla fiebre alta, rigidez muscular generalizada, alteración de conciencia y elevación de la creatincinasa. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome serotoninérgico leve necesariamente."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome neuroléptico maligno."
+        },
+        {
+          "id": "c",
+          "text": "Hipotiroidismo subclínico."
+        },
+        {
+          "id": "d",
+          "text": "Crisis de ausencia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La hipertermia, la rigidez intensa, la alteración del estado mental y la elevación de CK tras un antipsicótico orientan a síndrome neuroléptico maligno, una urgencia médica."
+    },
+    {
+      "id": "q167",
+      "specialty": "Geriatría",
+      "statement": "Un hombre de 84 años presenta confusión de inicio brusco y fluctuaciones de la atención tras una infección urinaria. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enfermedad de Alzheimer de inicio súbito."
+        },
+        {
+          "id": "b",
+          "text": "Esquizofrenia de aparición tardía necesariamente."
+        },
+        {
+          "id": "c",
+          "text": "Delirium."
+        },
+        {
+          "id": "d",
+          "text": "Demencia frontotemporal en todos los casos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El inicio brusco y las fluctuaciones de atención indican delirium, favorecido por una enfermedad aguda. La infección puede ser un desencadenante entre varias causas coexistentes."
+    },
+    {
+      "id": "q168",
+      "specialty": "Geriatría",
+      "statement": "¿Cuál es una medida eficaz para reducir el riesgo de caídas en personas mayores?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revisar la medicación, evaluar la marcha y adaptar el entorno."
+        },
+        {
+          "id": "b",
+          "text": "Recomendar reposo absoluto permanente."
+        },
+        {
+          "id": "c",
+          "text": "Suspender todos los medicamentos de forma indiscriminada."
+        },
+        {
+          "id": "d",
+          "text": "Evitar cualquier actividad física."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La prevención de caídas incluye revisar fármacos, valorar equilibrio y marcha y corregir riesgos del entorno, junto con intervenciones individualizadas como ejercicio adecuado."
+    },
+    {
+      "id": "q169",
+      "specialty": "Geriatría",
+      "statement": "Una persona mayor presenta pérdida involuntaria de peso, debilidad, agotamiento y reducción de la velocidad de la marcha. ¿Qué síndrome debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipertiroidismo subclínico exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome nefrótico."
+        },
+        {
+          "id": "c",
+          "text": "Crisis de ansiedad."
+        },
+        {
+          "id": "d",
+          "text": "Fragilidad."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La pérdida de peso involuntaria, la debilidad, el agotamiento y la lentitud de la marcha son componentes del fenotipo de fragilidad."
+    },
+    {
+      "id": "q170",
+      "specialty": "Geriatría",
+      "statement": "¿Cuál es una manifestación frecuente de la hipotensión ortostática?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dolor abdominal después de comer exclusivamente."
+        },
+        {
+          "id": "b",
+          "text": "Mareo o presíncope al incorporarse."
+        },
+        {
+          "id": "c",
+          "text": "Tos productiva persistente."
+        },
+        {
+          "id": "d",
+          "text": "Ictericia."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La caída de presión arterial al adoptar la bipedestación puede disminuir transitoriamente la perfusión cerebral y producir mareo, presíncope o síncope."
+    },
+    {
+      "id": "q171",
+      "specialty": "Geriatría",
+      "statement": "Un paciente mayor toma diez medicamentos diferentes y presenta somnolencia y caídas recurrentes. ¿Cuál es la actuación más adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Añadir otro sedante."
+        },
+        {
+          "id": "b",
+          "text": "Suspender toda la medicación inmediatamente sin revisión."
+        },
+        {
+          "id": "c",
+          "text": "Realizar una revisión sistemática de la medicación y valorar interacciones y fármacos potencialmente inapropiados."
+        },
+        {
+          "id": "d",
+          "text": "Recomendar aumentar las dosis de todos los medicamentos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La polifarmacia puede contribuir a somnolencia y caídas. La revisión estructurada permite detectar interacciones, ajustar tratamientos y plantear deprescripción de forma individualizada."
+    },
+    {
+      "id": "q172",
+      "specialty": "Geriatría",
+      "statement": "¿Qué intervención ayuda a prevenir las úlceras por presión en pacientes inmovilizados?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cambios posturales individualizados, cuidado de la piel y superficies de alivio de presión."
+        },
+        {
+          "id": "b",
+          "text": "Mantener siempre la misma postura."
+        },
+        {
+          "id": "c",
+          "text": "Aplicar alcohol sobre las prominencias óseas diariamente."
+        },
+        {
+          "id": "d",
+          "text": "Evitar la valoración nutricional."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La redistribución de presión, los cambios posturales individualizados y el cuidado de la piel reducen el riesgo de lesiones por presión. La valoración nutricional también forma parte del abordaje."
+    },
+    {
+      "id": "q173",
+      "specialty": "Geriatría",
+      "statement": "Una mujer de 82 años presenta deterioro cognitivo progresivo durante varios años, sin alteraciones agudas de atención. ¿Qué diagnóstico debe considerarse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delirium por definición."
+        },
+        {
+          "id": "b",
+          "text": "Meningitis aguda."
+        },
+        {
+          "id": "c",
+          "text": "Hipoglucemia aguda."
+        },
+        {
+          "id": "d",
+          "text": "Demencia, cuya causa debe investigarse."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Un deterioro cognitivo crónico y progresivo hace considerar demencia cuando afecta a la autonomía. Deben investigarse la causa y los factores potencialmente tratables."
+    },
+    {
+      "id": "q174",
+      "specialty": "Geriatría",
+      "statement": "¿Cuál es una característica de la sarcopenia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aumento de la masa muscular."
+        },
+        {
+          "id": "b",
+          "text": "Pérdida de fuerza muscular y masa muscular, con deterioro funcional."
+        },
+        {
+          "id": "c",
+          "text": "Aumento obligatorio de la densidad ósea."
+        },
+        {
+          "id": "d",
+          "text": "Hipertensión arterial aislada."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La sarcopenia se caracteriza por fuerza muscular reducida y disminución de cantidad o calidad muscular. El bajo rendimiento físico permite valorar su gravedad."
+    },
+    {
+      "id": "q175",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "Un paciente adulto, competente e informado rechaza un tratamiento recomendado. ¿Cuál es la actuación habitual?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Administrarlo por la fuerza en todos los casos."
+        },
+        {
+          "id": "b",
+          "text": "Ignorar su decisión porque el médico considera que es beneficioso."
+        },
+        {
+          "id": "c",
+          "text": "Respetar su decisión autónoma, tras comprobar que comprende la información y sus consecuencias."
+        },
+        {
+          "id": "d",
+          "text": "Dar por terminada toda asistencia sanitaria."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El rechazo informado de un adulto con capacidad de decidir debe respetarse en las condiciones legalmente previstas. Se informa, se comprueba la comprensión y se documenta la decisión, manteniendo la atención que proceda."
+    },
+    {
+      "id": "q176",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "¿Qué documento recoge la voluntad de una persona sobre determinados cuidados y tratamientos para cuando no pueda expresar sus decisiones?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Documento de instrucciones previas o voluntades anticipadas."
+        },
+        {
+          "id": "b",
+          "text": "Informe de alta hospitalaria."
+        },
+        {
+          "id": "c",
+          "text": "Receta electrónica."
+        },
+        {
+          "id": "d",
+          "text": "Parte de incapacidad temporal."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Las instrucciones previas permiten expresar anticipadamente decisiones sobre cuidados y tratamientos para cuando no puedan manifestarse personalmente, con los requisitos previstos por la normativa aplicable."
+    },
+    {
+      "id": "q177",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "¿Cuál es una obligación fundamental relacionada con la historia clínica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permitir su acceso libre a cualquier persona."
+        },
+        {
+          "id": "b",
+          "text": "Publicarla sin autorización."
+        },
+        {
+          "id": "c",
+          "text": "Eliminarla inmediatamente después del alta."
+        },
+        {
+          "id": "d",
+          "text": "Garantizar su confidencialidad y el acceso conforme a la normativa aplicable."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La información clínica está protegida por el deber de confidencialidad. Su acceso y uso deben ajustarse a las finalidades y garantías previstas legalmente."
+    },
+    {
+      "id": "q178",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "Un médico detecta un error de medicación que ha causado daño a un paciente. ¿Cuál es la actuación profesional adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ocultarlo siempre para evitar conflictos."
+        },
+        {
+          "id": "b",
+          "text": "Priorizar la seguridad del paciente, atender el daño y comunicar el incidente de manera transparente conforme a los procedimientos aplicables."
+        },
+        {
+          "id": "c",
+          "text": "Alterar la historia clínica."
+        },
+        {
+          "id": "d",
+          "text": "Culpar automáticamente a otro profesional."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La prioridad es atender al paciente, limitar el daño y comunicar el incidente de forma transparente siguiendo los procedimientos de seguridad. El análisis debe favorecer la prevención de nuevos errores."
+    },
+    {
+      "id": "q179",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "¿Qué principio bioético se relaciona principalmente con evitar causar daño al paciente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Justicia distributiva."
+        },
+        {
+          "id": "b",
+          "text": "Autonomía."
+        },
+        {
+          "id": "c",
+          "text": "No maleficencia."
+        },
+        {
+          "id": "d",
+          "text": "Confidencialidad exclusivamente."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La no maleficencia exige evitar daños injustificados. Se considera junto con la beneficencia, la autonomía y la justicia al tomar decisiones clínicas."
+    },
+    {
+      "id": "q180",
+      "specialty": "Bioética y legislación sanitaria",
+      "statement": "En una investigación clínica con participantes humanos, ¿qué requisito es fundamental?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consentimiento informado cuando corresponda y revisión ética conforme a la normativa aplicable."
+        },
+        {
+          "id": "b",
+          "text": "Ocultar siempre los riesgos del estudio."
+        },
+        {
+          "id": "c",
+          "text": "Impedir que los participantes abandonen el estudio."
+        },
+        {
+          "id": "d",
+          "text": "Prescindir de la evaluación ética si el investigador tiene experiencia."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La investigación con personas requiere revisión ética y protección de los participantes. El consentimiento informado se obtiene cuando procede, con las excepciones y garantías expresamente previstas."
+    },
+    {
+      "id": "q181",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "¿Qué significa un intervalo de confianza del 95 % en el marco frecuentista?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que el 95 % de los pacientes tienen el valor exacto estimado."
+        },
+        {
+          "id": "b",
+          "text": "Que el resultado será necesariamente correcto."
+        },
+        {
+          "id": "c",
+          "text": "Que existe un 95 % de probabilidad de que el parámetro fijo esté dentro de este intervalo concreto, en la interpretación frecuentista estricta."
+        },
+        {
+          "id": "d",
+          "text": "Que el estudio carece de sesgos."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "ANULADA. Ninguna opción es correcta. En muestreos repetidos bajo los supuestos del modelo, aproximadamente el 95 % de los intervalos construidos con este procedimiento contendrían el parámetro verdadero. No se asigna una probabilidad del 95 % al parámetro fijo dentro de este intervalo ya observado. La C se conserva únicamente como clave pretendida por el material original y no puntúa. Referencia: Cochrane Handbook, capítulo 15, apartado 15.3.3: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-15.",
+      "voided": true
+    },
+    {
+      "id": "q182",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "En un ensayo clínico, el riesgo de un evento es del 20 % en el grupo control y del 10 % en el grupo tratado. ¿Cuál es la reducción absoluta del riesgo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 puntos porcentuales."
+        },
+        {
+          "id": "b",
+          "text": "10 puntos porcentuales."
+        },
+        {
+          "id": "c",
+          "text": "20 puntos porcentuales."
+        },
+        {
+          "id": "d",
+          "text": "2 puntos porcentuales."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La reducción absoluta del riesgo es 0,20 − 0,10 = 0,10, es decir, 10 puntos porcentuales. La reducción relativa sería del 50 %."
+    },
+    {
+      "id": "q183",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "En el ensayo anterior, ¿cuál es el número necesario a tratar (NNT) para prevenir un evento durante el periodo estudiado?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2."
+        },
+        {
+          "id": "b",
+          "text": "5."
+        },
+        {
+          "id": "c",
+          "text": "20."
+        },
+        {
+          "id": "d",
+          "text": "10."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El NNT es el inverso de la reducción absoluta del riesgo expresada como proporción: 1 / 0,10 = 10 durante el periodo de seguimiento del ensayo."
+    },
+    {
+      "id": "q184",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "¿Qué significa un valor de p inferior a 0,05, suponiendo que se cumplen los supuestos del análisis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que los datos observados, o unos más extremos, serían relativamente poco probables bajo la hipótesis nula."
+        },
+        {
+          "id": "b",
+          "text": "Que la hipótesis alternativa tiene una probabilidad del 95 % de ser verdadera."
+        },
+        {
+          "id": "c",
+          "text": "Que el efecto es clínicamente importante necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Que no existen sesgos."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El valor p se calcula suponiendo la hipótesis nula y los supuestos del análisis. No expresa la probabilidad de que una hipótesis sea verdadera ni demuestra importancia clínica."
+    },
+    {
+      "id": "q185",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "¿Qué característica define un metaanálisis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Una encuesta realizada a un único paciente."
+        },
+        {
+          "id": "b",
+          "text": "Una serie de casos sin grupo comparador."
+        },
+        {
+          "id": "c",
+          "text": "Una combinación estadística de resultados de estudios pertinentes para estimar un efecto conjunto."
+        },
+        {
+          "id": "d",
+          "text": "Un ensayo sin análisis de resultados."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "El metaanálisis combina estadísticamente resultados de estudios compatibles para estimar un efecto conjunto, teniendo en cuenta la incertidumbre y la heterogeneidad."
+    },
+    {
+      "id": "q186",
+      "specialty": "Bioestadística y medicina basada en la evidencia",
+      "statement": "¿Qué es un sesgo de selección?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Una variación aleatoria inevitable en todas las mediciones."
+        },
+        {
+          "id": "b",
+          "text": "Una distorsión relacionada con la forma en que se seleccionan los participantes para el estudio."
+        },
+        {
+          "id": "c",
+          "text": "Un efecto farmacológico adverso."
+        },
+        {
+          "id": "d",
+          "text": "Una medida de asociación epidemiológica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El sesgo de selección surge cuando el proceso de inclusión o permanencia de participantes distorsiona sistemáticamente la estimación de interés. Se diferencia de la variabilidad aleatoria."
+    },
+    {
+      "id": "q187",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un hombre de 67 años presenta fiebre, tos productiva, confusión y presión arterial de 85/50 mmHg. La radiografía muestra una consolidación pulmonar. ¿Cuál es la prioridad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alta domiciliaria con antitusígenos."
+        },
+        {
+          "id": "b",
+          "text": "Esperar 48 horas antes de evaluar la gravedad."
+        },
+        {
+          "id": "c",
+          "text": "Realizar únicamente una espirometría."
+        },
+        {
+          "id": "d",
+          "text": "Evaluar y tratar urgentemente una posible neumonía grave con sepsis."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La consolidación con signos de infección, hipotensión y alteración mental indica una posible neumonía grave con sepsis, que requiere estabilización y tratamiento urgentes."
+    },
+    {
+      "id": "q188",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Una mujer de 35 años presenta cansancio, palidez y menstruaciones abundantes. La hemoglobina está disminuida y la ferritina es baja. ¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Confirmar la ferropenia, tratarla y estudiar la causa del sangrado."
+        },
+        {
+          "id": "b",
+          "text": "Administrar vitamina B12 sin más estudios."
+        },
+        {
+          "id": "c",
+          "text": "Diagnosticar leucemia sin realizar evaluación adicional."
+        },
+        {
+          "id": "d",
+          "text": "Ignorar el resultado si la paciente está consciente."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La ferritina baja y la anemia apoyan ferropenia. Es necesario tratar el déficit y estudiar las pérdidas, sin atribuir automáticamente toda anemia a las menstruaciones."
+    },
+    {
+      "id": "q189",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un hombre de 70 años presenta dolor torácico y disnea. El ECG muestra fibrilación auricular con respuesta ventricular rápida, hipotensión y signos de hipoperfusión. ¿Qué tratamiento es prioritario?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Betabloqueantes orales y alta."
+        },
+        {
+          "id": "b",
+          "text": "Anticoagulación oral como única medida inmediata."
+        },
+        {
+          "id": "c",
+          "text": "Cardioversión eléctrica sincronizada urgente."
+        },
+        {
+          "id": "d",
+          "text": "Esperar a que el ritmo se normalice espontáneamente durante varias horas."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La fibrilación auricular con inestabilidad hemodinámica requiere cardioversión eléctrica sincronizada urgente, junto con las medidas de soporte necesarias."
+    },
+    {
+      "id": "q190",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Una mujer de 26 años presenta pérdida de peso, taquicardia, temblor y TSH suprimida con T4 libre elevada. ¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipotiroidismo primario."
+        },
+        {
+          "id": "b",
+          "text": "Hipertiroidismo manifiesto."
+        },
+        {
+          "id": "c",
+          "text": "Insuficiencia suprarrenal primaria necesariamente."
+        },
+        {
+          "id": "d",
+          "text": "Diabetes insípida."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La TSH suprimida con T4 libre elevada y síntomas compatibles indica tirotoxicosis manifiesta; entre las opciones corresponde a hipertiroidismo manifiesto. La etiología debe investigarse."
+    },
+    {
+      "id": "q191",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un paciente presenta dolor epigástrico intenso, irradiado a la espalda, después de un episodio de consumo excesivo de alcohol. La lipasa está muy elevada. ¿Qué diagnóstico es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apendicitis."
+        },
+        {
+          "id": "b",
+          "text": "Diverticulitis."
+        },
+        {
+          "id": "c",
+          "text": "Cólico renal."
+        },
+        {
+          "id": "d",
+          "text": "Pancreatitis aguda."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El dolor epigástrico irradiado a la espalda y la elevación importante de lipasa orientan a pancreatitis aguda. El alcohol es una posible causa, sin excluir otras."
+    },
+    {
+      "id": "q192",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Una mujer de 72 años presenta pérdida súbita de visión monocular indolora. ¿Qué debe hacerse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evaluación oftalmológica y vascular urgente para descartar causas potencialmente graves."
+        },
+        {
+          "id": "b",
+          "text": "Esperar un mes para ver si mejora."
+        },
+        {
+          "id": "c",
+          "text": "Prescribir lágrimas artificiales como único tratamiento."
+        },
+        {
+          "id": "d",
+          "text": "Considerarlo una manifestación normal del envejecimiento."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La pérdida visual monocular súbita puede deberse a oclusión arterial retiniana u otras causas graves. Necesita evaluación urgente oftalmológica y, según la sospecha, vascular y neurológica."
+    },
+    {
+      "id": "q193",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un hombre de 61 años presenta dolor y tumefacción de una rodilla, fiebre y limitación intensa del movimiento. ¿Cuál es la actuación más importante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diagnosticar artrosis sin pruebas."
+        },
+        {
+          "id": "b",
+          "text": "Administrar corticoides intraarticulares inmediatamente sin estudiar el líquido."
+        },
+        {
+          "id": "c",
+          "text": "Realizar artrocentesis urgente para investigar una posible artritis séptica."
+        },
+        {
+          "id": "d",
+          "text": "Recomendar ejercicio intenso."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Una monoartritis aguda con fiebre obliga a descartar infección. La artrocentesis permite estudiar el líquido y orientar el tratamiento urgente."
+    },
+    {
+      "id": "q194",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Una paciente diabética presenta vómitos, deshidratación, glucemia elevada, cetonemia y acidosis metabólica. ¿Qué tratamiento forma parte del manejo de la cetoacidosis diabética?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Suspender todos los líquidos."
+        },
+        {
+          "id": "b",
+          "text": "Reposición de líquidos, insulina y corrección y monitorización de electrolitos según el protocolo."
+        },
+        {
+          "id": "c",
+          "text": "Administrar glucosa oral como único tratamiento."
+        },
+        {
+          "id": "d",
+          "text": "Tratar exclusivamente con antibióticos."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "El manejo incluye líquidos, insulina y vigilancia estrecha de electrolitos, especialmente potasio. La secuencia y los ajustes dependen de las cifras analíticas y de la situación clínica."
+    },
+    {
+      "id": "q195",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un paciente de 74 años presenta dolor abdominal intenso desproporcionado respecto a los hallazgos iniciales de la exploración. Tiene antecedentes de fibrilación auricular. ¿Qué diagnóstico debe sospecharse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastroenteritis leve."
+        },
+        {
+          "id": "b",
+          "text": "Síndrome del intestino irritable."
+        },
+        {
+          "id": "c",
+          "text": "Hernia umbilical no complicada."
+        },
+        {
+          "id": "d",
+          "text": "Isquemia mesentérica aguda."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "El dolor desproporcionado a la exploración, en un paciente con riesgo embólico por fibrilación auricular, hace sospechar isquemia mesentérica aguda."
+    },
+    {
+      "id": "q196",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Una mujer de 29 años presenta disnea súbita, dolor pleurítico y taquicardia cinco días después de una cesárea. ¿Qué diagnóstico debe descartarse urgentemente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tromboembolia pulmonar."
+        },
+        {
+          "id": "b",
+          "text": "Rinitis alérgica."
+        },
+        {
+          "id": "c",
+          "text": "Migraña."
+        },
+        {
+          "id": "d",
+          "text": "Cistitis no complicada."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "El puerperio y la cirugía aumentan el riesgo de enfermedad tromboembólica. La disnea súbita con dolor pleurítico y taquicardia obliga a descartar embolia pulmonar."
+    },
+    {
+      "id": "q197",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un paciente presenta fiebre, dolor lumbar, disuria y puñopercusión renal positiva. ¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Síndrome nefrótico."
+        },
+        {
+          "id": "b",
+          "text": "Cólico biliar."
+        },
+        {
+          "id": "c",
+          "text": "Pielonefritis aguda."
+        },
+        {
+          "id": "d",
+          "text": "Pancreatitis."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Los síntomas urinarios con fiebre y dolor lumbar o puñopercusión positiva orientan a una infección del tracto urinario superior, como pielonefritis aguda."
+    },
+    {
+      "id": "q198",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un hombre de 65 años presenta pérdida progresiva de peso, disfagia inicialmente para sólidos y posteriormente para líquidos. ¿Qué prueba permite estudiar directamente la mucosa esofágica y obtener biopsias si son necesarias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Electrocardiograma."
+        },
+        {
+          "id": "b",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "id": "c",
+          "text": "Espirometría."
+        },
+        {
+          "id": "d",
+          "text": "Densitometría ósea."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La endoscopia digestiva alta visualiza la mucosa esofágica y permite biopsias. La disfagia progresiva con pérdida de peso obliga a investigar una posible lesión obstructiva, incluida neoplasia."
+    },
+    {
+      "id": "q199",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un paciente con insuficiencia cardíaca presenta disnea, crepitantes bilaterales, ingurgitación yugular y edemas periféricos. ¿Qué situación es más probable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hipovolemia aislada."
+        },
+        {
+          "id": "b",
+          "text": "Neumotórax espontáneo necesariamente."
+        },
+        {
+          "id": "c",
+          "text": "Crisis de ausencia."
+        },
+        {
+          "id": "d",
+          "text": "Descompensación congestiva de la insuficiencia cardíaca."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Los signos de congestión pulmonar y sistémica en un paciente con insuficiencia cardíaca orientan a una descompensación congestiva."
+    },
+    {
+      "id": "q200",
+      "specialty": "Casos clínicos integrados",
+      "statement": "Un hombre de 58 años presenta dolor torácico opresivo, elevación del ST en derivaciones contiguas y síntomas de 90 minutos de evolución. ¿Cuál es la estrategia preferida si puede realizarse sin demora relevante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reperfusión coronaria urgente mediante angioplastia primaria."
+        },
+        {
+          "id": "b",
+          "text": "Prueba de esfuerzo inmediata."
+        },
+        {
+          "id": "c",
+          "text": "Esperar 24 horas para repetir el ECG."
+        },
+        {
+          "id": "d",
+          "text": "Alta con analgesia oral."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "En un infarto con elevación del ST, la angioplastia primaria es la estrategia de reperfusión preferida cuando puede realizarse a tiempo. La reperfusión no debe demorarse innecesariamente."
+    }
+  ]
+}
