@@ -1,0 +1,12 @@
+dist/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+config.local.json
+supabase/import.sql
+supabase/setup.sql
+usuarios/*.json
+!usuarios/schema.example.json
+.DS_Store

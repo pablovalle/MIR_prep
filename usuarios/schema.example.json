@@ -1,0 +1,5 @@
+{
+  "description": "Ejemplo de estructura, sin datos de personas reales. Las cuentas viven en Supabase Auth.",
+  "profile": { "id": "UUID de Auth", "display_name": "Nombre visible", "target_date": null, "specialty_goal": "" },
+  "attempt": { "id": "UUID", "user_id": "UUID de Auth", "exam_id": "identificador-version", "status": "in_progress | submitted", "answers": { "q1": "a" }, "flagged": ["q2"], "current_index": 0, "elapsed_seconds": 0, "version": 1, "result": null }
+}

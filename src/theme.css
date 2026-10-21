@@ -1,0 +1,65 @@
+/* MIR_Prep · Paleta de producto. Edita estos colores para futuras iteraciones. */
+:root {
+  --ink: #18263e;
+  --ink-soft: #465772;
+  --muted: #62718a;
+  --muted-soft: #74829a;
+  --disabled: #8792a5;
+  --paper: #f5f7fb;
+  --white: #ffffff;
+  --surface-soft: #f8f9fc;
+  --surface-muted: #eef2f7;
+  --line: #e3e8f0;
+  --line-strong: #cbd4e2;
+
+  --primary: #385ad7;
+  --primary-hover: #2c49ba;
+  --primary-soft: #edf2ff;
+  --primary-border: #c3d0f5;
+  --focus: #8ca5ff;
+  --focus-glow: #385ad71c;
+
+  --violet: #7354b1;
+  --violet-soft: #f3effc;
+  --violet-border: #e2d9f5;
+  --violet-decoration: #e5ddf6;
+  --teal: #167a8a;
+  --teal-soft: #eaf7f8;
+  --amber: #9a651a;
+  --amber-soft: #fff6e7;
+  --amber-border: #f1dfba;
+  --amber-dot: #d8a34a;
+
+  --success: #18795c;
+  --success-soft: #e9f6f0;
+  --success-border: #b8decd;
+  --success-on-dark: #81c7aa;
+  --red: #aa3f50;
+  --red-soft: #fff0f2;
+  --red-border: #f3d1d6;
+  --red-on-dark: #f0ada7;
+
+  --dark: #14213a;
+  --sidebar-bg: #111d33;
+  --nav-hover: #1c2d4a;
+  --nav-active: #263c63;
+  --nav-text: #b3c0d6;
+  --nav-muted: #8194b5;
+  --nav-line: #2b3a54;
+  --on-dark: #f5f7ff;
+  --on-dark-muted: #bdc9df;
+  --brand-accent: #a7baff;
+  --warm-accent: #f1cd92;
+  --hero-background: linear-gradient(115deg, #1b2d4d 0%, #2c426a 100%);
+  --login-background: linear-gradient(150deg, #111d33 0%, #22365a 100%);
+  --hero-orbit: #afc3fa29;
+  --hero-glow: #8ea9f023;
+  --hero-border: #d8e2ff2e;
+  --hero-shadow: #111d3314;
+  --login-glow: #7b91e52b;
+  --overlay: #101c325e;
+  --modal-overlay: #101c326b;
+  --modal-shadow: #14213a26;
+  --toast-shadow: #14213a33;
+  --shadow: 0 5px 22px #15264006;
+}

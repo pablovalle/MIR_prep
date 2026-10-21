@@ -1,0 +1,64 @@
+{
+  "id": "demo-v1",
+  "title": "Tu primer entrenamiento",
+  "subtitle": "Conoce tu espacio de estudio",
+  "description": "Un recorrido de 4 preguntas sobre MIR_Prep para probar el guardado, la corrección y el informe. No contiene preguntas médicas ni es un examen MIR oficial.",
+  "category": "Demostración",
+  "isDemo": true,
+  "durationMinutes": 5,
+  "scoring": { "correct": 3, "incorrect": -1, "blank": 0 },
+  "questions": [
+    {
+      "id": "q1",
+      "specialty": "Tu preparación",
+      "statement": "Quieres empezar un simulacro hoy y terminarlo mañana. ¿Qué función te permite continuar donde lo dejaste?",
+      "options": [
+        { "id": "a", "text": "El guardado automático del progreso." },
+        { "id": "b", "text": "La descarga del informe final." },
+        { "id": "c", "text": "El filtro del catálogo de exámenes." },
+        { "id": "d", "text": "La revisión de un examen ya entregado." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Las respuestas se guardan mientras avanzas. Usa «Guardar y salir» para comprobar el guardado antes de abandonar la sesión. En una cuenta conectada, puedes retomar el examen desde otro dispositivo."
+    },
+    {
+      "id": "q2",
+      "specialty": "Tu preparación",
+      "statement": "Tienes dudas sobre una pregunta y quieres volver a ella antes de entregar. ¿Qué puedes hacer?",
+      "options": [
+        { "id": "a", "text": "Entregar el examen para poder cambiarla después." },
+        { "id": "b", "text": "Marcarla para revisar y continuar con el resto." },
+        { "id": "c", "text": "Cerrar la cuenta y empezar desde cero." },
+        { "id": "d", "text": "Descargar el historial de resultados." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La marca de revisión es un recordatorio personal. Puedes localizar estas preguntas en el navegador lateral y volver a ellas antes de enviar el examen."
+    },
+    {
+      "id": "q3",
+      "specialty": "Tus resultados",
+      "statement": "Este entrenamiento suma 3 puntos por acierto, resta 1 por error y da 0 por respuesta en blanco. Con 2 aciertos, 1 error y 1 respuesta en blanco, ¿cuántos puntos obtienes?",
+      "options": [
+        { "id": "a", "text": "6 puntos." },
+        { "id": "b", "text": "4 puntos." },
+        { "id": "c", "text": "5 puntos." },
+        { "id": "d", "text": "3 puntos." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La puntuación de este entrenamiento es (2 × 3) − (1 × 1) = 5 puntos. Las netas son los puntos divididos entre 3: 1,67. Es una métrica de práctica, no una estimación del puesto o de la nota oficial del MIR."
+    },
+    {
+      "id": "q4",
+      "specialty": "Tus resultados",
+      "statement": "Has entregado un examen. ¿Dónde puedes consultar las respuestas correctas y entender tus errores?",
+      "options": [
+        { "id": "a", "text": "En la pantalla de acceso." },
+        { "id": "b", "text": "En los datos de tu perfil." },
+        { "id": "c", "text": "En la configuración del navegador." },
+        { "id": "d", "text": "En la revisión del examen, desde su informe o el historial." }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Cada examen entregado queda en tu historial con su informe, tus respuestas y las explicaciones. Puedes revisarlo tantas veces como quieras; las respuestas de un intento entregado ya no se pueden modificar."
+    }
+  ]
+}
